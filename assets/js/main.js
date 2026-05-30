@@ -1471,12 +1471,29 @@ function initGoldenCanvas() {
       drawRatioSegments();
 
       ctx.restore();
-      requestAnimationFrame(draw);
     }
 
     resize();
     window.addEventListener('resize', resize);
-    requestAnimationFrame(draw);
+
+    var rafId = null;
+    var visible = false;
+    function tick() {
+      draw();
+      rafId = requestAnimationFrame(tick);
+    }
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting && !visible) {
+          visible = true;
+          rafId = requestAnimationFrame(tick);
+        } else if (!e.isIntersecting && visible) {
+          visible = false;
+          if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+        }
+      });
+    }, { threshold: 0 });
+    obs.observe(canvas);
   }
 
   function createSection(canvasId, cxRatio, layers) {
@@ -1505,12 +1522,29 @@ function initGoldenCanvas() {
       layers.forEach(fn => fn(env));
 
       ctx.restore();
-      requestAnimationFrame(drawS);
     }
 
     resizeS();
     window.addEventListener('resize', resizeS);
-    requestAnimationFrame(drawS);
+
+    var rafId = null;
+    var visible = false;
+    function tick() {
+      drawS();
+      rafId = requestAnimationFrame(tick);
+    }
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting && !visible) {
+          visible = true;
+          rafId = requestAnimationFrame(tick);
+        } else if (!e.isIntersecting && visible) {
+          visible = false;
+          if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+        }
+      });
+    }, { threshold: 0 });
+    obs.observe(canvas);
   }
 
   function layerSpiral(e) {
