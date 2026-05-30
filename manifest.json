@@ -1,16 +1,47 @@
 {
-  "name": "MexVisa Pro — Immigration Services",
+  "name": "MexVisa Pro — Immigration Services in Riviera Maya",
   "short_name": "MexVisa Pro",
-  "description": "Professional immigration consulting in Riviera Maya, Mexico. EN/ES/RU/ZH.",
+  "description": "Professional immigration consulting in Riviera Maya, Mexico. Visas, residency, work permits, citizenship. EN/ES/RU/ZH.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#0b1120",
   "theme_color": "#f0a500",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "legal"],
+  "screenshots": [],
   "icons": [
     {
       "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇲🇽</text></svg>",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "WhatsApp Consultation",
+      "url": "https://wa.me/529987583392?text=Hello!%20I%20need%20immigration%20help",
+      "description": "Start a free consultation via WhatsApp"
+    },
+    {
+      "name": "Our Services",
+      "url": "/#services",
+      "description": "View our immigration services"
     }
   ]
 }

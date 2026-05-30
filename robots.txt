@@ -4,6 +4,9 @@ Allow: /en/
 Allow: /es/
 Allow: /ru/
 Allow: /zh/
+Allow: /assets/
+Disallow: /sw.js
+Disallow: /.netlify/
 Sitemap: https://mexvisapro.com/sitemap.xml
 
 User-agent: Googlebot
@@ -17,7 +20,14 @@ Crawl-delay: 2
 User-agent: Yandex
 Allow: /
 Crawl-delay: 2
+Host: https://mexvisapro.com
 
 User-agent: Baiduspider
 Allow: /
 Crawl-delay: 2
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

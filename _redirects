@@ -1,6 +1,14 @@
-# Netlify redirects for multilingual site
+# WWW redirect
+https://www.mexvisapro.com/*  https://mexvisapro.com/:splat  301!
+
 # Language-specific clean URLs
 /en     /en/index.html    200
 /es     /es/index.html    200
 /ru     /ru/index.html    200
 /zh     /zh/index.html    200
+
+# Trailing slash enforcement
+/en     /en/    301
+/es     /es/    301
+/ru     /ru/    301
+/zh     /zh/    301

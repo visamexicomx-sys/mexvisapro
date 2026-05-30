@@ -17,6 +17,11 @@
   <meta name="ICBM" content="21.1619, -86.8515">
   <meta name="rating" content="general">
   <meta name="revisit-after" content="3 days">
+  <!-- Search engine verification — replace with real codes -->
+  <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_CODE"> -->
+  <!-- <meta name="yandex-verification" content="YOUR_YANDEX_CODE"> -->
+  <!-- <meta name="msvalidate.01" content="YOUR_BING_CODE"> -->
+  <!-- <meta name="baidu-site-verification" content="YOUR_BAIDU_CODE"> -->
 
   <!-- Hreflang for multilingual SEO -->
   <link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/">
@@ -31,6 +36,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://wa.me">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preload" href="assets/css/style.css" as="style">
+  <link rel="preload" href="assets/js/main.js" as="script">
+  <link rel="preload" href="assets/img/hero-illustration.svg" as="image" type="image/svg+xml">
 
   <!-- Critical CSS inlined for First Contentful Paint -->
   <style>
@@ -270,6 +279,17 @@
     }
   }
   </script>
+
+  <!-- Google tag (gtag.js) — replace G-XXXXXXXXXX with real ID -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-XXXXXXXXXX')</script>
+  -->
+
+  <!-- Yandex.Metrica — replace XXXXXXXX with real ID -->
+  <!--
+  <script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(XXXXXXXX,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true})</script>
+  -->
 
   <!-- Manifest & Favicon -->
   <link rel="manifest" href="manifest.json">
@@ -1166,5 +1186,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
+<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js')</script>
 </body>
 </html>
