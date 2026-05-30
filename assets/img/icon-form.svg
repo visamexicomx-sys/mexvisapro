@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Clipboard -->
+  <rect x="30" y="25" width="60" height="75" rx="8" fill="#fff" fill-opacity=".2"/>
+  <rect x="45" y="18" width="30" height="14" rx="7" fill="#fff" fill-opacity=".3"/>
+  <!-- Lines -->
+  <rect x="40" y="45" width="40" height="4" rx="2" fill="#fff" fill-opacity=".25"/>
+  <rect x="40" y="55" width="30" height="4" rx="2" fill="#fff" fill-opacity=".2"/>
+  <rect x="40" y="65" width="35" height="4" rx="2" fill="#fff" fill-opacity=".2"/>
+  <!-- Checkmarks -->
+  <g stroke="#fff" stroke-opacity=".4" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M40 80 L44 84 L52 76"/>
+    <path d="M58 80 L62 84 L70 76"/>
+  </g>
+  <!-- Pen -->
+  <g transform="translate(72, 60) rotate(30)">
+    <rect width="4" height="30" rx="2" fill="#fff" fill-opacity=".25"/>
+    <path d="M0 30 L2 36 L4 30Z" fill="#fff" fill-opacity=".3"/>
+  </g>
+</svg>

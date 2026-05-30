@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Plane -->
+  <g transform="translate(30, 30) rotate(-15, 30, 30)" fill="#fff" fill-opacity=".35">
+    <path d="M55 28 L60 20 L62 28 L75 24 L65 32 L75 44 L62 36 L60 44 L55 36 L25 48 L50 32 L25 16Z"/>
+  </g>
+  <!-- Document -->
+  <rect x="35" y="50" width="50" height="40" rx="6" fill="#fff" fill-opacity=".2"/>
+  <rect x="42" y="58" width="30" height="3" rx="1.5" fill="#fff" fill-opacity=".25"/>
+  <rect x="42" y="65" width="22" height="3" rx="1.5" fill="#fff" fill-opacity=".2"/>
+  <rect x="42" y="72" width="26" height="3" rx="1.5" fill="#fff" fill-opacity=".15"/>
+  <!-- Trail -->
+  <path d="M70 35 Q85 30 95 20" stroke="#fff" stroke-opacity=".15" stroke-width="1.5" stroke-dasharray="3 3"/>
+</svg>

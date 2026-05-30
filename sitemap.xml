@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Root (x-default, auto-redirect) -->
+  <url>
+    <loc>https://mexvisapro.com/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
+      <image:title>MexVisa Pro Immigration Services Riviera Maya</image:title>
+    </image:image>
+  </url>
+
+  <!-- English -->
+  <url>
+    <loc>https://mexvisapro.com/en/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
+      <image:title>Immigration Services in Riviera Maya Mexico</image:title>
+    </image:image>
+  </url>
+
+  <!-- Spanish -->
+  <url>
+    <loc>https://mexvisapro.com/es/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
+      <image:title>Servicios de Inmigración en Riviera Maya México</image:title>
+    </image:image>
+  </url>
+
+  <!-- Russian -->
+  <url>
+    <loc>https://mexvisapro.com/ru/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
+      <image:title>Иммиграционные услуги в Ривьере-Майя Мексика</image:title>
+    </image:image>
+  </url>
+
+  <!-- Chinese -->
+  <url>
+    <loc>https://mexvisapro.com/zh/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
+      <image:title>里维埃拉玛雅墨西哥移民服务</image:title>
+    </image:image>
+  </url>
+
+</urlset>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1120"/>
+      <stop offset="50%" style="stop-color:#1a2744"/>
+      <stop offset="100%" style="stop-color:#0d3b66"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f0a500"/>
+      <stop offset="100%" style="stop-color:#ffd54f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#gold)"/>
+  <rect x="0" y="626" width="1200" height="4" fill="url(#gold)"/>
+  <text x="600" y="200" font-family="Inter,Arial,sans-serif" font-size="72" font-weight="900" fill="white" text-anchor="middle">MexVisa<tspan fill="#f0a500">Pro</tspan></text>
+  <text x="600" y="290" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="600" fill="rgba(255,255,255,0.8)" text-anchor="middle">Immigration Services in Riviera Maya</text>
+  <line x1="450" y1="330" x2="750" y2="330" stroke="#f0a500" stroke-width="3" stroke-linecap="round"/>
+  <text x="600" y="390" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="500" fill="rgba(255,255,255,0.6)" text-anchor="middle">Visas • Residency • Work Permits • Citizenship</text>
+  <text x="600" y="440" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#f0a500" text-anchor="middle">100% Approval Rate | Since 2009 | EN/ES/RU/ZH</text>
+  <text x="600" y="520" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700" fill="#25d366" text-anchor="middle">WhatsApp: +52 998 758 3392</text>
+  <text x="600" y="570" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle">mexvisapro.com</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0a500"/>
+      <stop offset="100%" stop-color="#ffd54f"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d6efd"/>
+      <stop offset="100%" stop-color="#4d9eff"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00c853"/>
+      <stop offset="100%" stop-color="#69f0ae"/>
+    </linearGradient>
+    <filter id="s1" x="-10%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity=".1"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="220" fill="#f4f7fc"/>
+  <circle cx="250" cy="250" r="220" fill="none" stroke="#e8edf3" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- Shield -->
+  <g filter="url(#s1)" transform="translate(155, 80)">
+    <path d="M95 0 L190 40 L190 130 Q190 200 95 240 Q0 200 0 130 L0 40Z" fill="url(#g2)" opacity=".9"/>
+    <path d="M95 15 L175 50 L175 125 Q175 185 95 220 Q15 185 15 125 L15 50Z" fill="#fff" fill-opacity=".1"/>
+    <!-- Checkmark inside shield -->
+    <g transform="translate(55, 75)">
+      <circle r="40" cx="40" cy="40" fill="#fff" fill-opacity=".15"/>
+      <path d="M15 42 L32 58 L68 24" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <!-- 98% text -->
+    <text x="95" y="175" text-anchor="middle" font-family="Inter,sans-serif" font-size="22" font-weight="900" fill="#fff">98%</text>
+  </g>
+
+  <!-- Floating badges around shield -->
+  <!-- Languages Badge -->
+  <g filter="url(#s1)" transform="translate(20, 200)">
+    <rect width="110" height="44" rx="22" fill="#fff"/>
+    <circle cx="26" cy="22" r="14" fill="url(#g1)"/>
+    <text x="26" y="26" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="800" fill="#fff">EN</text>
+    <text x="72" y="20" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#333">ES RU</text>
+    <text x="72" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#999">Trilingual</text>
+  </g>
+
+  <!-- Clock/Speed Badge -->
+  <g filter="url(#s1)" transform="translate(370, 180)">
+    <rect width="105" height="44" rx="22" fill="#fff"/>
+    <circle cx="26" cy="22" r="14" fill="url(#g3)"/>
+    <path d="M20 22 L26 22 L26 14" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#333">2-4 Wks</text>
+    <text x="70" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#999">Fast Process</text>
+  </g>
+
+  <!-- Location Pin -->
+  <g filter="url(#s1)" transform="translate(60, 340)">
+    <rect width="130" height="44" rx="22" fill="#fff"/>
+    <circle cx="26" cy="22" r="14" fill="#e91e63"/>
+    <path d="M26 14 Q26 14 26 14 C22 14 19 17 19 21 C19 27 26 32 26 32 C26 32 33 27 33 21 C33 17 30 14 26 14Z" fill="#fff" fill-opacity=".9"/>
+    <circle cx="26" cy="20.5" r="2.5" fill="#e91e63"/>
+    <text x="82" y="20" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" font-weight="700" fill="#333">Cancun & PDC</text>
+    <text x="82" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#999">Local Experts</text>
+  </g>
+
+  <!-- Documents Badge -->
+  <g filter="url(#s1)" transform="translate(310, 330)">
+    <rect width="130" height="44" rx="22" fill="#fff"/>
+    <circle cx="26" cy="22" r="14" fill="url(#g2)"/>
+    <rect x="19" y="15" width="14" height="14" rx="2" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <path d="M22 22 L24 24 L30 18" stroke="#fff" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <text x="82" y="20" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" font-weight="700" fill="#333">End-to-End</text>
+    <text x="82" y="32" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="#999">Full Service</text>
+  </g>
+
+  <!-- Stars -->
+  <g fill="url(#g1)" opacity=".8">
+    <path d="M80 120 L83 128 L92 128 L85 133 L87 141 L80 136 L73 141 L75 133 L68 128 L77 128Z" transform="scale(.7)"/>
+    <path d="M80 120 L83 128 L92 128 L85 133 L87 141 L80 136 L73 141 L75 133 L68 128 L77 128Z" transform="translate(420,90) scale(.5)"/>
+    <path d="M80 120 L83 128 L92 128 L85 133 L87 141 L80 136 L73 141 L75 133 L68 128 L77 128Z" transform="translate(180,400) scale(.6)"/>
+  </g>
+</svg>

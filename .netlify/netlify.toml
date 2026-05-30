@@ -1,0 +1,116 @@
+plugins = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/home/olek/immigration-site"
+publishOrigin = "default"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self'"
+
+[[headers]]
+for = "/assets/*"
+
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/en/*"
+
+[headers.values]
+Cache-Control = "public, max-age=3600"
+Vary = "Accept-Language"
+
+[[headers]]
+for = "/es/*"
+
+[headers.values]
+Cache-Control = "public, max-age=3600"
+Vary = "Accept-Language"
+
+[[headers]]
+for = "/ru/*"
+
+[headers.values]
+Cache-Control = "public, max-age=3600"
+Vary = "Accept-Language"
+
+[[headers]]
+for = "/zh/*"
+
+[headers.values]
+Cache-Control = "public, max-age=3600"
+Vary = "Accept-Language"
+
+[[redirects]]
+from = "/en"
+to = "/en/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/es"
+to = "/es/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/ru"
+to = "/ru/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/zh"
+to = "/zh/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

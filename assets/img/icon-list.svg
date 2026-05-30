@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Document stack -->
+  <rect x="35" y="30" width="55" height="65" rx="6" fill="#fff" fill-opacity=".12"/>
+  <rect x="30" y="25" width="55" height="65" rx="6" fill="#fff" fill-opacity=".18"/>
+  <rect x="25" y="20" width="55" height="65" rx="6" fill="#fff" fill-opacity=".25"/>
+  <!-- Numbered list -->
+  <g font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#fff" fill-opacity=".4">
+    <text x="33" y="40">1.</text>
+    <text x="33" y="53">2.</text>
+    <text x="33" y="66">3.</text>
+  </g>
+  <rect x="46" y="33" width="25" height="3" rx="1.5" fill="#fff" fill-opacity=".2"/>
+  <rect x="46" y="46" width="20" height="3" rx="1.5" fill="#fff" fill-opacity=".2"/>
+  <rect x="46" y="59" width="22" height="3" rx="1.5" fill="#fff" fill-opacity=".2"/>
+  <!-- Calendar icon -->
+  <g transform="translate(60, 62)">
+    <rect width="28" height="25" rx="4" fill="#fff" fill-opacity=".2"/>
+    <rect width="28" height="8" rx="4 4 0 0" fill="#fff" fill-opacity=".3"/>
+    <rect x="5" y="13" width="5" height="4" rx="1" fill="#fff" fill-opacity=".25"/>
+    <rect x="14" y="13" width="5" height="4" rx="1" fill="#fff" fill-opacity=".25"/>
+  </g>
+</svg>

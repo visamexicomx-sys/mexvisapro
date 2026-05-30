@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Allow: /en/
+Allow: /es/
+Allow: /ru/
+Allow: /zh/
+Sitemap: https://mexvisapro.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2

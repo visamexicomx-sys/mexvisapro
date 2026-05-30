@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect x="25" y="30" width="70" height="65" rx="8" fill="#fff" fill-opacity=".2"/>
+  <rect x="25" y="30" width="70" height="20" rx="8 8 0 0" fill="#fff" fill-opacity=".3"/>
+  <rect x="35" y="58" width="50" height="4" rx="2" fill="#fff" fill-opacity=".25"/>
+  <rect x="35" y="68" width="35" height="4" rx="2" fill="#fff" fill-opacity=".2"/>
+  <rect x="35" y="78" width="45" height="4" rx="2" fill="#fff" fill-opacity=".15"/>
+  <!-- Eagle silhouette -->
+  <g transform="translate(48, 22)" fill="#fff" fill-opacity=".5">
+    <path d="M12 0 C8 4 2 10 5 16 C8 13 10 11 12 13 C14 11 16 13 19 16 C22 10 16 4 12 0Z"/>
+  </g>
+  <!-- Mexico flag stripe at bottom -->
+  <rect x="25" y="88" width="23" height="7" rx="0 0 0 8" fill="#006847" opacity=".5"/>
+  <rect x="48" y="88" width="24" height="7" fill="#fff" opacity=".3"/>
+  <rect x="72" y="88" width="23" height="7" rx="0 0 8 0" fill="#ce1126" opacity=".5"/>
+</svg>

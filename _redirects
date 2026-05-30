@@ -1,0 +1,6 @@
+# Netlify redirects for multilingual site
+# Language-specific clean URLs
+/en     /en/index.html    200
+/es     /es/index.html    200
+/ru     /ru/index.html    200
+/zh     /zh/index.html    200

@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <!-- Cancun Skyline Background -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d3b66" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#1a2744" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d6efd" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#00c853" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0a500"/>
+      <stop offset="100%" stop-color="#ffd54f"/>
+    </linearGradient>
+    <linearGradient id="passport-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#006847"/>
+      <stop offset="100%" stop-color="#004d33"/>
+    </linearGradient>
+    <linearGradient id="doc-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f4f8"/>
+    </linearGradient>
+    <filter id="shadow1" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="15" flood-color="#000" flood-opacity=".2"/>
+    </filter>
+    <filter id="shadow2" x="-10%" y="-10%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".15"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ocean Wave -->
+  <path d="M0 420 Q100 390 200 410 T400 400 T600 415 L600 500 L0 500Z" fill="url(#sea)"/>
+  <path d="M0 440 Q150 420 300 435 T600 430 L600 500 L0 500Z" fill="url(#sea)" opacity=".5"/>
+
+  <!-- Cancun Buildings Silhouette -->
+  <g opacity=".12" fill="#fff">
+    <rect x="30" y="280" width="35" height="140" rx="3"/>
+    <rect x="75" y="240" width="28" height="180" rx="3"/>
+    <rect x="110" y="300" width="40" height="120" rx="3"/>
+    <rect x="460" y="260" width="32" height="160" rx="3"/>
+    <rect x="500" y="290" width="45" height="130" rx="3"/>
+    <rect x="555" y="310" width="30" height="110" rx="3"/>
+    <!-- Hotel Zone Tower -->
+    <rect x="160" y="200" width="22" height="220" rx="2"/>
+    <rect x="420" y="220" width="25" height="200" rx="2"/>
+  </g>
+
+  <!-- Palm Trees -->
+  <g opacity=".15" fill="#00c853">
+    <path d="M50 300 Q40 270 20 260 Q45 265 50 290Z"/>
+    <path d="M50 300 Q60 265 85 258 Q58 268 50 290Z"/>
+    <path d="M50 300 Q45 260 50 245 Q55 260 50 290Z"/>
+    <rect x="48" y="290" width="4" height="50" rx="2" fill="#8d6e63" opacity=".3"/>
+
+    <path d="M540 310 Q530 280 510 270 Q535 275 540 300Z"/>
+    <path d="M540 310 Q550 275 575 268 Q548 278 540 300Z"/>
+    <path d="M540 310 Q535 270 540 255 Q545 270 540 300Z"/>
+    <rect x="538" y="300" width="4" height="50" rx="2" fill="#8d6e63" opacity=".3"/>
+  </g>
+
+  <!-- Main Passport -->
+  <g filter="url(#shadow1)" transform="translate(150, 60)">
+    <rect width="200" height="280" rx="16" fill="url(#passport-bg)"/>
+    <!-- Mexico Coat Emboss -->
+    <circle cx="100" cy="110" r="50" fill="none" stroke="#fff" stroke-opacity=".15" stroke-width="1.5"/>
+    <!-- Eagle emblem simplified -->
+    <g transform="translate(75, 85)" fill="#fff" fill-opacity=".2">
+      <path d="M25 0 C15 8 5 20 10 30 C15 25 20 22 25 25 C30 22 35 25 40 30 C45 20 35 8 25 0Z"/>
+      <ellipse cx="25" cy="35" rx="18" ry="8"/>
+    </g>
+    <text x="100" y="170" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#fff" fill-opacity=".8" letter-spacing="4">PASAPORTE</text>
+    <text x="100" y="188" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="#fff" fill-opacity=".5" letter-spacing="2">ESTADOS UNIDOS MEXICANOS</text>
+    <!-- Gold line -->
+    <rect x="60" y="200" width="80" height="2" rx="1" fill="url(#gold-grad)" opacity=".6"/>
+    <!-- Chip -->
+    <rect x="30" y="225" width="35" height="28" rx="4" fill="#d4af37" opacity=".4"/>
+    <line x1="38" y1="233" x2="57" y2="233" stroke="#fff" stroke-opacity=".3" stroke-width="1"/>
+    <line x1="38" y1="239" x2="57" y2="239" stroke="#fff" stroke-opacity=".3" stroke-width="1"/>
+    <line x1="38" y1="245" x2="57" y2="245" stroke="#fff" stroke-opacity=".3" stroke-width="1"/>
+    <!-- Mexico flag stripe -->
+    <rect x="0" y="268" width="67" height="12" rx="0 0 0 16" fill="#006847"/>
+    <rect x="67" y="268" width="66" height="12" fill="#fff"/>
+    <rect x="133" y="268" width="67" height="12" rx="0 0 16 0" fill="#ce1126"/>
+  </g>
+
+  <!-- Residency Card -->
+  <g filter="url(#shadow2)" transform="translate(310, 180) rotate(6)">
+    <rect width="220" height="140" rx="12" fill="url(#doc-bg)"/>
+    <!-- Header bar -->
+    <rect width="220" height="35" rx="12 12 0 0" fill="#0d6efd" fill-opacity=".9"/>
+    <text x="110" y="23" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#fff" letter-spacing="2">RESIDENT CARD</text>
+    <!-- Photo placeholder -->
+    <rect x="15" y="48" width="50" height="60" rx="6" fill="#e8edf3"/>
+    <circle cx="40" cy="65" r="12" fill="#c5cdd8"/>
+    <path d="M22 100 Q40 85 58 100Z" fill="#c5cdd8"/>
+    <!-- Info lines -->
+    <rect x="78" y="52" width="90" height="6" rx="3" fill="#dde3eb"/>
+    <rect x="78" y="65" width="70" height="5" rx="2.5" fill="#e8edf3"/>
+    <rect x="78" y="78" width="80" height="5" rx="2.5" fill="#e8edf3"/>
+    <rect x="78" y="91" width="60" height="5" rx="2.5" fill="#e8edf3"/>
+    <!-- APPROVED stamp -->
+    <g transform="translate(120, 95) rotate(-15)">
+      <rect x="-35" y="-12" width="70" height="24" rx="4" fill="none" stroke="#00c853" stroke-width="2.5" stroke-opacity=".8"/>
+      <text x="0" y="4" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" font-weight="800" fill="#00c853" fill-opacity=".8">APPROVED</text>
+    </g>
+    <!-- Barcode -->
+    <g transform="translate(15, 118)" opacity=".3">
+      <rect width="2" height="12" fill="#333"/><rect x="4" width="1" height="12" fill="#333"/>
+      <rect x="7" width="3" height="12" fill="#333"/><rect x="12" width="1" height="12" fill="#333"/>
+      <rect x="15" width="2" height="12" fill="#333"/><rect x="19" width="1" height="12" fill="#333"/>
+      <rect x="22" width="3" height="12" fill="#333"/><rect x="27" width="2" height="12" fill="#333"/>
+      <rect x="31" width="1" height="12" fill="#333"/><rect x="34" width="2" height="12" fill="#333"/>
+    </g>
+  </g>
+
+  <!-- Visa Sticker -->
+  <g filter="url(#shadow2)" transform="translate(80, 310) rotate(-4)">
+    <rect width="180" height="100" rx="10" fill="#fff" fill-opacity=".95"/>
+    <rect width="180" height="28" rx="10 10 0 0" fill="#006847" fill-opacity=".9"/>
+    <text x="90" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" font-weight="700" fill="#fff" letter-spacing="1.5">VISA DE RESIDENTE</text>
+    <!-- Visa details -->
+    <rect x="12" y="38" width="60" height="5" rx="2.5" fill="#e0e5ec"/>
+    <rect x="12" y="50" width="80" height="4" rx="2" fill="#e8ecf1"/>
+    <rect x="12" y="60" width="50" height="4" rx="2" fill="#e8ecf1"/>
+    <!-- QR Code -->
+    <g transform="translate(130, 38)">
+      <rect width="36" height="36" rx="3" fill="#1a1a1a" opacity=".08"/>
+      <rect x="3" y="3" width="10" height="10" rx="1" fill="#333" opacity=".3"/>
+      <rect x="23" y="3" width="10" height="10" rx="1" fill="#333" opacity=".3"/>
+      <rect x="3" y="23" width="10" height="10" rx="1" fill="#333" opacity=".3"/>
+      <rect x="15" y="15" width="6" height="6" rx="1" fill="#333" opacity=".2"/>
+    </g>
+    <!-- Valid stamp -->
+    <circle cx="60" cy="72" r="15" fill="none" stroke="#f0a500" stroke-width="1.5" opacity=".5"/>
+    <text x="60" y="75" text-anchor="middle" font-family="Inter,sans-serif" font-size="6" font-weight="800" fill="#f0a500" opacity=".6">VALID</text>
+  </g>
+
+  <!-- Checkmark Badge -->
+  <g filter="url(#glow)" transform="translate(470, 120)">
+    <circle r="30" fill="url(#gold-grad)"/>
+    <path d="M-12 0 L-4 8 L14 -10" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Floating Mexico Flag Pin -->
+  <g transform="translate(430, 60)" opacity=".9">
+    <circle r="18" fill="#fff" filter="url(#shadow2)"/>
+    <clipPath id="flagclip"><circle r="15"/></clipPath>
+    <g clip-path="url(#flagclip)">
+      <rect x="-15" y="-15" width="10" height="30" fill="#006847"/>
+      <rect x="-5" y="-15" width="10" height="30" fill="#fff"/>
+      <rect x="5" y="-15" width="10" height="30" fill="#ce1126"/>
+    </g>
+  </g>
+
+  <!-- Plane Trail -->
+  <path d="M500 40 Q450 80 480 120" stroke="#fff" stroke-opacity=".1" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+  <g transform="translate(500, 38) rotate(30)" fill="#fff" fill-opacity=".2">
+    <path d="M0 -4 L12 0 L0 4 L2 0Z"/>
+  </g>
+</svg>
