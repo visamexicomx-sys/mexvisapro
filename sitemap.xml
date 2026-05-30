@@ -7,7 +7,7 @@
   <url>
     <loc>https://mexvisapro.com/</loc>
     <lastmod>2026-05-30</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
@@ -16,7 +16,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
     <image:image>
       <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
-      <image:title>MexVisa Pro Immigration Services Riviera Maya</image:title>
+      <image:title>MexVisa Pro — Immigration Services Riviera Maya Mexico</image:title>
+      <image:caption>Mexican passport, residency card, and visa documents for immigration in Riviera Maya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/why-us.svg</image:loc>
+      <image:title>Why Choose MexVisa Pro — 100% Visa Approval Rate Since 2009</image:title>
     </image:image>
   </url>
 
@@ -24,7 +29,7 @@
   <url>
     <loc>https://mexvisapro.com/en/</loc>
     <lastmod>2026-05-30</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
@@ -33,7 +38,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
     <image:image>
       <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
-      <image:title>Immigration Services in Riviera Maya Mexico</image:title>
+      <image:title>Immigration Services in Riviera Maya — Visa and Residency Consulting Mexico</image:title>
+      <image:caption>Professional immigration consulting for Cancún, Playa del Carmen, and Tulum</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/why-us.svg</image:loc>
+      <image:title>Why Choose MexVisa Pro — 2500+ Visas Approved</image:title>
     </image:image>
   </url>
 
@@ -41,7 +51,7 @@
   <url>
     <loc>https://mexvisapro.com/es/</loc>
     <lastmod>2026-05-30</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
@@ -50,7 +60,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
     <image:image>
       <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
-      <image:title>Servicios de Inmigración en Riviera Maya México</image:title>
+      <image:title>Servicios Migratorios Riviera Maya — Consultoría de Visa y Residencia México</image:title>
+      <image:caption>Consultoría migratoria profesional para Cancún, Playa del Carmen y Tulum</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/why-us.svg</image:loc>
+      <image:title>Por Qué Elegir MexVisa Pro — 2500+ Visas Aprobadas</image:title>
     </image:image>
   </url>
 
@@ -58,7 +73,7 @@
   <url>
     <loc>https://mexvisapro.com/ru/</loc>
     <lastmod>2026-05-30</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
@@ -67,7 +82,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
     <image:image>
       <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
-      <image:title>Иммиграционные услуги в Ривьере-Майя Мексика</image:title>
+      <image:title>Иммиграционные услуги Ривьера-Майя — Визы и ВНЖ Мексика</image:title>
+      <image:caption>Профессиональная иммиграционная консультация для Канкуна, Плайя-дель-Кармен и Тулума</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/why-us.svg</image:loc>
+      <image:title>Почему MexVisa Pro — 2500+ одобренных виз</image:title>
     </image:image>
   </url>
 
@@ -75,7 +95,7 @@
   <url>
     <loc>https://mexvisapro.com/zh/</loc>
     <lastmod>2026-05-30</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/"/>
@@ -84,7 +104,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/"/>
     <image:image>
       <image:loc>https://mexvisapro.com/assets/img/hero-illustration.svg</image:loc>
-      <image:title>里维埃拉玛雅墨西哥移民服务</image:title>
+      <image:title>里维埃拉玛雅移民服务 — 墨西哥签证与居留咨询</image:title>
+      <image:caption>坎昆、普拉亚德尔卡门和图卢姆的专业移民咨询</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mexvisapro.com/assets/img/why-us.svg</image:loc>
+      <image:title>为什么选择MexVisa Pro — 2500+签证获批</image:title>
     </image:image>
   </url>
 
