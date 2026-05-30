@@ -1,17 +1,11 @@
-const CACHE = 'mexvisapro-v3';
+const CACHE = 'mexvisapro-v4';
 const ASSETS = [
   '/',
-  '/en/',
-  '/es/',
-  '/ru/',
-  '/zh/',
-  '/assets/css/vendor.min.css',
-  '/assets/css/style.min.css',
-  '/assets/js/bootstrap.bundle.min.js',
+  '/assets/css/style.css',
   '/assets/js/main.js',
-  '/assets/fonts/inter-latin.woff2',
-  '/assets/fonts/bootstrap-icons.woff2',
   '/assets/img/hero-illustration.svg',
+  '/assets/img/why-us.svg',
+  '/assets/img/icon-192.png',
   '/manifest.json'
 ];
 
@@ -31,6 +25,8 @@ self.addEventListener('activate', e => {
 
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
+  const url = new URL(e.request.url);
+  if (url.origin !== location.origin) return;
   e.respondWith(
     fetch(e.request)
       .then(r => {

@@ -6,7 +6,6 @@ Allow: /ru/
 Allow: /zh/
 Allow: /assets/
 Disallow: /sw.js
-Disallow: /.netlify/
 Sitemap: https://mexvisapro.com/sitemap.xml
 
 User-agent: Googlebot
