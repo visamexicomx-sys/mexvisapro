@@ -10,12 +10,12 @@ with open(os.path.join(BASE, 'index.html'), 'r', encoding='utf-8') as f:
 LANGS = {
     'en': {
         'html_lang': 'en',
-        'title': 'MexVisa Pro — #1 Immigration Services in Riviera Maya, Mexico | Visas, Residency & Citizenship',
-        'description': 'MexVisa Pro: #1 immigration consulting in Riviera Maya. Temporary & permanent residency, work permits, investor visas, citizenship & naturalization. 100% approval rate. Free WhatsApp consultation. Serving Cancún, Playa del Carmen, Tulum since 2009.',
+        'title': 'MexVisa Pro — Immigration Services Riviera Maya',
+        'description': 'Visa & residency experts in Riviera Maya. Temporary, permanent residency, work permits, citizenship. 100% approval rate. Free WhatsApp consultation.',
         'keywords': 'immigration Mexico, visa Riviera Maya, residency Riviera Maya, work permit Mexico, INM, temporary residency Mexico, permanent residency Mexico, naturalization Mexico, immigration lawyer Riviera Maya, immigration consultant Riviera Maya, Mexico visa application, expat Mexico, digital nomad Mexico visa, immigration Cancun, immigration Playa del Carmen, immigration Tulum, investor visa Mexico, retirement visa Mexico, Mexico immigration 2026',
-        'og_title': 'MexVisa Pro — #1 Immigration Services in Riviera Maya',
+        'og_title': 'MexVisa Pro — Immigration Services Riviera Maya',
         'og_locale': 'en_US',
-        'twitter_title': 'MexVisa Pro — Immigration in Riviera Maya',
+        'twitter_title': 'MexVisa Pro — Immigration Riviera Maya',
         'faq': [
             ('How long does it take to get temporary residency in Mexico?', 'The process typically takes 2-4 weeks from document submission to card issuance, depending on the INM office workload in the Riviera Maya.'),
             ('Do I need to be in Mexico to start the immigration process?', 'For most visa types, you can start the process at a Mexican consulate in your home country.'),
@@ -25,12 +25,12 @@ LANGS = {
     },
     'es': {
         'html_lang': 'es',
-        'title': 'MexVisa Pro — Servicios de Inmigración en Riviera Maya, México | Visas, Residencia y Ciudadanía',
-        'description': 'MexVisa Pro: consultoría migratoria #1 en Riviera Maya. Residencia temporal y permanente, permisos de trabajo, visas de inversionista, ciudadanía y naturalización. 100% aprobación. Consulta gratuita por WhatsApp. Cancún, Playa del Carmen, Tulum desde 2009.',
+        'title': 'MexVisa Pro — Servicios Migratorios Riviera Maya',
+        'description': 'Expertos en visas y residencia en Riviera Maya. Residencia temporal, permanente, permisos de trabajo, ciudadanía. 100% aprobación. Consulta WhatsApp gratis.',
         'keywords': 'inmigración México, visa Riviera Maya, residencia Riviera Maya, permiso de trabajo México, INM, residencia temporal México, residencia permanente México, naturalización México, abogado de inmigración Riviera Maya, consultor migratorio Riviera Maya, trámite visa México, extranjero México, visa nómada digital México, inmigración Cancún, inmigración Playa del Carmen, inmigración Tulum, visa inversionista México, visa jubilado México, inmigración México 2026',
-        'og_title': 'MexVisa Pro — Servicios de Inmigración #1 en Riviera Maya',
+        'og_title': 'MexVisa Pro — Servicios Migratorios Riviera Maya',
         'og_locale': 'es_MX',
-        'twitter_title': 'MexVisa Pro — Inmigración en Riviera Maya',
+        'twitter_title': 'MexVisa Pro — Inmigración Riviera Maya',
         'faq': [
             ('¿Cuánto tarda obtener la residencia temporal en México?', 'El proceso típicamente toma de 2 a 4 semanas desde la presentación de documentos hasta la emisión de la tarjeta, dependiendo de la carga de la oficina del INM en Riviera Maya.'),
             ('¿Necesito estar en México para iniciar el proceso migratorio?', 'Para la mayoría de los tipos de visa, puede iniciar el proceso en un consulado mexicano en su país de origen.'),
@@ -40,8 +40,8 @@ LANGS = {
     },
     'ru': {
         'html_lang': 'ru',
-        'title': 'MexVisa Pro — Иммиграция в Ривьеру-Майя, Мексика | Визы, ВНЖ, Гражданство',
-        'description': 'MexVisa Pro: иммиграционная консультация №1 в Ривьере-Майя. Временное и постоянное резидентство, разрешения на работу, инвестиционные визы, гражданство. 100% одобрений. Бесплатная консультация WhatsApp. Канкун, Плайя-дель-Кармен, Тулум с 2009.',
+        'title': 'MexVisa Pro — Иммиграция в Ривьеру-Майя, Мексика',
+        'description': 'Эксперты по визам и резидентству в Ривьере-Майя. ВНЖ, ПМЖ, разрешения на работу, гражданство. 100% одобрений. Бесплатная консультация WhatsApp.',
         'keywords': 'иммиграция Мексика, виза Ривьера-Майя, ВНЖ Мексика, разрешение на работу Мексика, INM, временное резидентство Мексика, постоянное резидентство Мексика, гражданство Мексика, иммиграционный юрист Ривьера-Майя, иммиграционный консультант Ривьера-Майя, виза Канкун, виза Плайя-дель-Кармен, переезд в Мексику, виза Тулум, инвестиционная виза Мексика, пенсионная виза Мексика, иммиграция Мексика 2026',
         'og_title': 'MexVisa Pro — Иммиграция №1 в Ривьере-Майя',
         'og_locale': 'ru_RU',
@@ -55,8 +55,8 @@ LANGS = {
     },
     'zh': {
         'html_lang': 'zh',
-        'title': 'MexVisa Pro — 里维埃拉玛雅移民服务第一名 | 签证、居留与公民身份',
-        'description': 'MexVisa Pro：里维埃拉玛雅排名第一的移民咨询。临时和永久居留、工作许可、投资签证、公民身份和入籍。100%通过率。WhatsApp免费咨询。服务坎昆、普拉亚德尔卡门、图卢姆，始于2009年。',
+        'title': 'MexVisa Pro — 里维埃拉玛雅移民服务',
+        'description': '里维埃拉玛雅签证和居留专家。临时居留、永久居留、工作许可、公民身份。100%通过率。WhatsApp免费咨询。',
         'keywords': '墨西哥移民, 里维埃拉玛雅签证, 里维埃拉玛雅居留, 墨西哥工作许可, INM, 墨西哥临时居留, 墨西哥永久居留, 墨西哥归化, 里维埃拉玛雅移民律师, 里维埃拉玛雅移民顾问, 墨西哥签证申请, 墨西哥外籍人士, 墨西哥数字游民签证, 坎昆移民, 普拉亚德尔卡门移民, 图卢姆移民, 墨西哥投资签证, 墨西哥退休签证, 墨西哥移民2026',
         'og_title': 'MexVisa Pro — 里维埃拉玛雅第一移民服务',
         'og_locale': 'zh_CN',
