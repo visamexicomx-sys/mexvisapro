@@ -1573,17 +1573,140 @@ section { padding: var(--phi-sp-7) 0; }
 }
 
 /* ── RESPONSIVE ── */
+
+/* ── Tablet (≤991px) ── */
 @media (max-width: 991px) {
+  :root {
+    --phi-fs-2xl: 3rem;
+    --phi-fs-xl: 2rem;
+    --phi-sp-7: 4.5rem;
+    --phi-sp-8: 6rem;
+  }
+  .hero { min-height: auto; padding-top: 1.5rem; padding-bottom: 3rem; }
   .hero h1 { font-size: 2.5rem; }
+  .hero p.lead { font-size: 1.1rem; }
   .hero-stats { gap: 1.5rem; }
   .hero-stat h3 { font-size: 1.5rem; }
-  .hero-visual { margin-top: 3rem; }
+  .hero-visual { margin-top: 2.5rem; text-align: center; }
+  .hero-visual img { max-width: 70%; }
+  .navbar-collapse { background: rgba(11,17,32,.98); padding: 1rem; border-radius: 0 0 var(--phi-r-xl) var(--phi-r-xl); margin-top: .5rem; }
+  .navbar-nav .nav-link { padding: .6rem 0; font-size: 1rem; }
+  .lang-switcher { margin-top: .5rem; justify-content: center; }
+  .section-title { font-size: 1.9rem; }
+  .service-card { padding: var(--phi-sp-4); }
+  .visa-card { aspect-ratio: auto; padding: var(--phi-sp-3); }
+  .accordion-button { padding: var(--phi-sp-3) var(--phi-sp-4); font-size: .95rem; }
+  .cta-section { padding: var(--phi-sp-6) 0; }
+  .footer .row > [class*="col-lg"] { margin-bottom: 1rem; }
+  .blog-card-img { height: 130px; }
+  .gov-links-bar .row { gap: .5rem; }
 }
-@media (max-width: 576px) {
-  .hero h1 { font-size: 2rem; }
-  section { padding: 4rem 0; }
-  .section-title { font-size: 1.8rem; }
-  .hero-stats { flex-wrap: wrap; gap: 1rem; }
-  .wa-widget { right: 15px; bottom: 15px; }
+
+/* ── Mobile (≤768px) ── */
+@media (max-width: 768px) {
+  :root {
+    --phi-sp-7: 3.5rem;
+    --phi-sp-8: 5rem;
+  }
+  section { padding: 3.5rem 0; }
+  .section-title { font-size: 1.7rem; }
+  .section-subtitle { font-size: .9rem; }
+  .hero h1 { font-size: 2.2rem; letter-spacing: -.5px; }
+  .hero p.lead { font-size: 1rem; line-height: 1.5; }
+  .hero-badge { font-size: .78rem; padding: .3rem .8rem; }
+  .hero-visual img { max-width: 80%; }
+  .hero-stats { gap: 1.2rem; }
+  .hero-stat h3 { font-size: 1.3rem; }
+  .hero-stat p { font-size: .72rem; }
+  .btn-gold, .btn-outline-light-custom { padding: .7rem 1.5rem; font-size: .95rem; }
+  .service-card h4 { font-size: .95rem; }
+  .service-card p { font-size: .82rem; }
+  .feature-item { gap: var(--phi-sp-3); }
+  .feature-num { width: 42px; height: 42px; font-size: .9rem; }
+  .step-num { width: 56px; height: 56px; font-size: 1.3rem; }
+  .testimonial-card { padding: var(--phi-sp-4); }
   .wa-chat-box { width: calc(100vw - 30px); right: -15px; }
+  .wa-widget { right: 15px; bottom: 15px; }
+  .whatsapp-float { width: 54px; height: 54px; font-size: 1.5rem; }
+  .back-to-top { width: 42px; height: 42px; bottom: 20px; left: 20px; font-size: 1.2rem; }
+  .footer { padding: var(--phi-sp-5) 0 var(--phi-sp-4); }
+  .footer h5 { font-size: .95rem; margin-bottom: var(--phi-sp-3); }
+  .trust-bar { padding: var(--phi-sp-1) 0; }
+  .trust-item { font-size: .68rem; }
+  .gold-line { width: 50px; }
+  .wave-divider svg { height: 40px; }
+  .cta-section h2 { font-size: 1.6rem; }
+  .cta-section p { font-size: 1rem !important; }
+}
+
+/* ── Small mobile (≤576px) ── */
+@media (max-width: 576px) {
+  .hero h1 { font-size: 1.85rem; }
+  .hero p.lead { font-size: .92rem; }
+  .hero-visual img { max-width: 90%; }
+  .hero-stats { flex-wrap: wrap; gap: .8rem; justify-content: center; }
+  .hero-stat { text-align: center; min-width: 80px; }
+  .hero-stat h3 { font-size: 1.2rem; }
+  section { padding: 3rem 0; }
+  .section-title { font-size: 1.5rem; }
+  .section-subtitle { font-size: .85rem; }
+  .d-flex.gap-3.mt-4 { flex-direction: column; gap: .8rem !important; }
+  .d-flex.gap-3.mt-4 .btn { width: 100%; text-align: center; }
+  .service-card { padding: var(--phi-sp-3); }
+  .service-icon { width: 50px; height: 50px; font-size: 1.2rem; margin-bottom: var(--phi-sp-3); }
+  .visa-card { padding: var(--phi-sp-2); }
+  .visa-card h5 { font-size: .9rem; }
+  .visa-icon { font-size: 1.8rem; margin-bottom: var(--phi-sp-2); }
+  .blog-card-body { padding: var(--phi-sp-3); }
+  .blog-card-img { height: 110px; }
+  .accordion-button { padding: var(--phi-sp-2) var(--phi-sp-3); font-size: .88rem; }
+  .accordion-body { padding: var(--phi-sp-2) var(--phi-sp-3); font-size: .85rem; }
+  .cta-section { padding: var(--phi-sp-5) 0; }
+  .cta-section h2 { font-size: 1.4rem; }
+  .cta-section p { font-size: .9rem !important; }
+  .cta-section .d-flex { flex-direction: column; gap: .8rem !important; }
+  .cta-section .btn { width: 100%; }
+  .footer .col-6 { flex: 0 0 50%; }
+  .gov-link-item { font-size: .8rem; padding: var(--phi-sp-1) var(--phi-sp-2); }
+  .scroll-progress { height: 2px; }
+}
+
+/* ── Extra small (≤400px) ── */
+@media (max-width: 400px) {
+  .hero h1 { font-size: 1.6rem; }
+  .hero p.lead { font-size: .85rem; }
+  .navbar-custom .navbar-brand { font-size: 1.15rem; }
+  .service-card h4 { font-size: .88rem; }
+  .feature-item h5 { font-size: .9rem; }
+  .feature-item p { font-size: .8rem; }
+  .step-card h5 { font-size: .9rem; }
+  .step-card p { font-size: .8rem; }
+  .wa-chat-box { width: calc(100vw - 20px); right: -10px; }
+  .wa-chat-name { font-size: .85rem; }
+  .wa-quick-btn { font-size: .78rem; padding: .5rem .6rem; }
+}
+
+/* ── Landscape phones ── */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero { min-height: auto; padding: 1rem 0; }
+  .hero h1 { font-size: 1.8rem; }
+  .hero p.lead { font-size: .9rem; }
+  .hero-visual { display: none; }
+  .hero-stats { margin-top: 1rem; }
+}
+
+/* ── Touch device optimizations ── */
+@media (hover: none) and (pointer: coarse) {
+  .service-card:hover,
+  .visa-card:hover,
+  .testimonial-card:hover,
+  .blog-card:hover,
+  .tilt-card:hover { transform: none; }
+  .service-card:hover { box-shadow: none; }
+  .glow-card:hover::before { opacity: 0; }
+  .phi-border-spin:hover::before { opacity: 0; }
+  .btn-gold:hover { transform: none; }
+  .nav-link::after { display: none; }
+  .nav-link { padding: .75rem 0 !important; }
+  .wa-quick-btn, .btn-gold, .btn-outline-light-custom { min-height: 44px; }
 }
