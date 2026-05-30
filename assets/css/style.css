@@ -224,22 +224,12 @@ body {
   padding: var(--phi-sp-5);
   color: #fff;
 }
-.hero-card .icon-circle {
-  width: 50px; height: 50px;
-  border-radius: var(--phi-r-xl);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--phi-fs-lg);
-  margin-bottom: var(--phi-sp-2);
-}
-.hero-card h5 { font-weight: 700; font-size: var(--phi-fs-md); }
+.hero-card .hero-card h5 { font-weight: 700; font-size: var(--phi-fs-md); }
 .hero-card p { font-size: var(--phi-fs-sm); color: rgba(255,255,255,.6); margin: 0; }
 
 .float-card {
   animation: floatCard 6s ease-in-out infinite;
 }
-.float-card-delay { animation-delay: -3s; }
 @keyframes floatCard {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-12px); }
@@ -252,29 +242,10 @@ section { padding: var(--phi-sp-7) 0; }
 .section-light { background: var(--light); }
 
 /* φ layout grid */
-.phi-grid {
-  display: grid;
-  grid-template-columns: var(--phi-major) var(--phi-minor);
-  gap: var(--phi-sp-5);
-  align-items: center;
-}
-.phi-grid-reverse {
-  display: grid;
-  grid-template-columns: var(--phi-minor) var(--phi-major);
-  gap: var(--phi-sp-5);
-  align-items: center;
-}
 @media (max-width: 991px) {
-  .phi-grid, .phi-grid-reverse { grid-template-columns: 1fr; }
-}
+  .phi-grid, }
 
 /* φ gap utilities */
-.gap-phi-1 { gap: var(--phi-sp-1); }
-.gap-phi-2 { gap: var(--phi-sp-2); }
-.gap-phi-3 { gap: var(--phi-sp-3); }
-.gap-phi-4 { gap: var(--phi-sp-4); }
-.gap-phi-5 { gap: var(--phi-sp-5); }
-
 .section-title {
   font-size: var(--phi-fs-xl);
   font-weight: 800;
@@ -727,17 +698,6 @@ section { padding: var(--phi-sp-7) 0; }
 .golden-canvas-footer { opacity: .09; }
 
 /* ── φ DECORATIVE OVERLAYS ── */
-.phi-grid-overlay {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  opacity: .03;
-  background:
-    linear-gradient(90deg, rgba(240,165,0,.5) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(240,165,0,.5) 1px, transparent 1px);
-  background-size: 61.8px 38.2px;
-}
 .phi-dot-pattern {
   position: absolute;
   inset: 0;
@@ -746,15 +706,6 @@ section { padding: var(--phi-sp-7) 0; }
   opacity: .04;
   background-image: radial-gradient(rgba(240,165,0,.6) 1px, transparent 1px);
   background-size: 26.18px 26.18px;
-}
-.phi-accent-line {
-  position: absolute;
-  width: 161.8px;
-  height: 1.618px;
-  background: linear-gradient(90deg, var(--gold), transparent);
-  opacity: .15;
-  pointer-events: none;
-  z-index: 1;
 }
 .phi-accent-circle {
   position: absolute;
@@ -831,13 +782,6 @@ section { padding: var(--phi-sp-7) 0; }
   opacity: 0;
   visibility: hidden;
 }
-.preloader-spinner {
-  width: 61.8px; height: 61.8px;
-  border: 3.82px solid rgba(255,255,255,.1);
-  border-top-color: var(--gold);
-  border-radius: 50%;
-  animation: spin .618s linear infinite;
-}
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
@@ -887,11 +831,6 @@ section { padding: var(--phi-sp-7) 0; }
 }
 
 /* ── CARD 3D TILT EFFECT ── */
-.tilt-card {
-  transform-style: preserve-3d;
-  perspective: 1000px;
-  transition: transform .382s cubic-bezier(.22,1,.36,1);
-}
 .tilt-card:hover {
   transform: perspective(1000px) rotateX(1.618deg) rotateY(-1.618deg) scale(1.0236);
 }
@@ -981,8 +920,6 @@ section { padding: var(--phi-sp-7) 0; }
   display: none;
 }
 .hero-float-badge i { color: var(--gold); margin-right: var(--phi-sp-1); }
-.hero-float-badge-1 { top: 23.6%; right: 6.18%; animation-delay: 0s; }
-.hero-float-badge-2 { bottom: 38.2%; right: 3.82%; animation-delay: -2.618s; }
 @keyframes floatBadge {
   0%, 100% { transform: translateY(0) rotate(0deg); }
   50% { transform: translateY(-15px) rotate(2deg); }
@@ -1001,23 +938,11 @@ section { padding: var(--phi-sp-7) 0; }
 }
 
 /* ── SMOOTH TEXT REVEAL ── */
-.text-reveal {
-  overflow: hidden;
-}
-.text-reveal span {
-  display: inline-block;
-  transform: translateY(100%);
-  animation: textReveal .8s cubic-bezier(.22,1,.36,1) forwards;
-}
 @keyframes textReveal {
   to { transform: translateY(0); }
 }
 
 /* ── COUNTER ANIMATION ── */
-.counter-animated {
-  display: inline-block;
-}
-
 /* ── BLOG / RESOURCES ── */
 .blog-card {
   background: #fff;
@@ -1126,27 +1051,7 @@ section { padding: var(--phi-sp-7) 0; }
 .gov-link-item i { font-size: 1.2rem; }
 
 /* ── TOOLTIP-STYLE INFO BADGES ── */
-.info-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--phi-sp-1);
-  background: rgba(13,110,253,.08);
-  color: var(--primary);
-  font-size: var(--phi-fs-xs);
-  font-weight: 600;
-  padding: var(--phi-sp-1) var(--phi-sp-2);
-  border-radius: var(--phi-r-2xl);
-  margin-right: var(--phi-sp-2);
-  margin-bottom: var(--phi-sp-2);
-}
-
 /* ── SMOOTH IMAGE LOADING SKELETON ── */
-.skeleton {
-  background: linear-gradient(90deg, #eee 23.6%, #f5f5f5 50%, #eee 76.4%);
-  background-size: 200% 100%;
-  animation: shimmer 1.618s infinite;
-  border-radius: var(--phi-r-md);
-}
 @keyframes shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
@@ -1376,55 +1281,7 @@ section { padding: var(--phi-sp-7) 0; }
 }
 
 /* ── FIBONACCI SPIRAL — visual golden ratio overlay ── */
-.fibonacci-spiral {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 1;
-  opacity: .04;
-  overflow: hidden;
-}
-.fibonacci-spiral::before {
-  content: '';
-  position: absolute;
-  right: 6.18%;
-  top: 6.18%;
-  width: 500px;
-  height: 500px;
-  border: 1.618px solid var(--gold);
-  border-radius: 0 0 100% 0;
-  clip-path: inset(0 0 50% 50%);
-}
-.fibonacci-spiral::after {
-  content: '';
-  position: absolute;
-  right: 6.18%;
-  top: 6.18%;
-  width: 309px;
-  height: 309px;
-  border: 1.618px solid var(--gold);
-  border-radius: 0 0 0 100%;
-  clip-path: inset(50% 50% 0 0);
-}
-
 /* ── GOLDEN RATIO DIVIDER LINE ── */
-.phi-divider {
-  width: 100%;
-  height: 1.618px;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(240,165,0,.06) 23.6%,
-    rgba(240,165,0,.3) 38.2%,
-    var(--gold) 61.8%,
-    rgba(240,165,0,.3) 76.4%,
-    rgba(240,165,0,.06) 88.6%,
-    transparent 100%
-  );
-  margin: var(--phi-sp-5) auto;
-  max-width: 61.8%;
-}
-
 /* ── φ NUMBER COUNTER with golden underline ── */
 .phi-counter {
   position: relative;
@@ -1488,13 +1345,6 @@ section { padding: var(--phi-sp-7) 0; }
 }
 
 /* ── GOLDEN SECTION HIGHLIGHT BOXES ── */
-.phi-highlight-box {
-  background: linear-gradient(var(--golden-angle), rgba(240,165,0,.04), rgba(13,110,253,.02));
-  border-left: 3.82px solid var(--gold);
-  border-radius: 0 var(--phi-r-lg) var(--phi-r-lg) 0;
-  padding: var(--phi-sp-4) var(--phi-sp-5);
-}
-
 /* ── φ PULSE RING on hero stats ── */
 .phi-pulse-ring {
   position: relative;
@@ -1514,9 +1364,6 @@ section { padding: var(--phi-sp-7) 0; }
 }
 
 /* ── GOLDEN ASPECT RATIO CONTAINERS ── */
-.phi-aspect { aspect-ratio: var(--phi); }
-.phi-aspect-inv { aspect-ratio: 1 / var(--phi); }
-
 /* ── φ GRADIENT TEXT ── */
 .phi-gradient-text {
   background: linear-gradient(var(--golden-angle), var(--gold) 0%, #ffd54f 38.2%, #ff9800 61.8%, var(--gold) 100%);

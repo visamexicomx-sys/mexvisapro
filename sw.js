@@ -1,8 +1,8 @@
-const CACHE = 'mexvisapro-v4';
+const CACHE = 'mexvisapro-v5';
 const ASSETS = [
   '/',
-  '/assets/css/style.css',
-  '/assets/js/main.js',
+  '/assets/css/style.min.css',
+  '/assets/js/main.min.js',
   '/assets/img/hero-illustration.svg',
   '/assets/img/why-us.svg',
   '/assets/img/icon-192.png',
