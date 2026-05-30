@@ -342,14 +342,7 @@
 <!-- ══════════════ HERO ══════════════ -->
 <main id="main-content" role="main">
 <section class="hero" id="home">
-  <div class="fibonacci-spiral"></div>
-  <div class="phi-dot-pattern"></div>
-  <div class="phi-accent-circle" style="top:-80px;right:-130px;opacity:.04"></div>
-  <div class="phi-accent-circle" style="bottom:-100px;left:-100px;width:161.8px;height:161.8px;opacity:.05"></div>
-  <div class="hero-particles"></div>
   <canvas class="golden-canvas" id="goldenCanvas"></canvas>
-  <div class="hero-float-badge hero-float-badge-1"><i class="bi bi-patch-check-fill"></i> 100% Approval Rate</div>
-  <div class="hero-float-badge hero-float-badge-2"><i class="bi bi-clock-fill"></i> Response &lt;30 min</div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 hero-content">
@@ -384,7 +377,7 @@
         </div>
       </div>
 
-      <div class="col-lg-4 offset-lg-1 hero-visual">
+      <div class="col-lg-5 offset-lg-1 hero-visual">
         <img src="../assets/img/hero-illustration.svg" alt="Mexican passport, temporary residency card, and immigration visa documents for Riviera Maya Mexico" class="img-fluid float-card" loading="eager" fetchpriority="high" width="600" height="500" style="max-width:100%;filter:drop-shadow(0 20px 40px rgba(0,0,0,.2))">
       </div>
     </div>
@@ -396,7 +389,6 @@
 
 <!-- ══════════════ SERVICES ══════════════ -->
 <section id="services" class="section-light" style="position:relative;overflow:hidden">
-  <div class="phi-dot-pattern" style="opacity:.02"></div>
   <div class="container position-relative" style="z-index:2">
     <div class="text-center mb-5">
       <div class="gold-line mx-auto"></div>
@@ -405,12 +397,17 @@
     </div>
     <div class="row g-4">
       <div class="col-md-6 col-lg-4 reveal stagger-1">
-        <div class="service-card glow-card shadow-premium phi-border-spin phi-card">
+        <div class="service-card glow-card shadow-premium phi-border-spin phi-card" style="position:relative">
+          <span class="visa-tag" style="position:absolute;top:16px;right:16px;background:rgba(0,200,83,.15);color:var(--accent)">Most Popular</span>
           <div class="service-icon" style="background:rgba(13,110,253,.1);color:var(--primary)">
             <i class="bi bi-card-heading"></i>
           </div>
           <h4 data-i18n="s1_title">Temporary Residency</h4>
           <p data-i18n="s1_text">Apply for 1 to 4 year temporary resident visas for work, retirement, investment, or family reunion.</p>
+          <div class="d-flex align-items-center gap-3 mt-3" style="font-size:.8rem;color:#999">
+            <span><i class="bi bi-clock me-1"></i>2–4 weeks</span>
+            <span><i class="bi bi-currency-dollar me-1"></i>From $500 USD</span>
+          </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal stagger-2">
@@ -420,6 +417,10 @@
           </div>
           <h4 data-i18n="s2_title">Permanent Residency</h4>
           <p data-i18n="s2_text">Obtain your permanent resident card after qualifying through time, family ties, or point-based criteria.</p>
+          <div class="d-flex align-items-center gap-3 mt-3" style="font-size:.8rem;color:#999">
+            <span><i class="bi bi-clock me-1"></i>3–6 weeks</span>
+            <span><i class="bi bi-currency-dollar me-1"></i>From $700 USD</span>
+          </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal stagger-3">
@@ -429,6 +430,10 @@
           </div>
           <h4 data-i18n="s3_title">Work Permits</h4>
           <p data-i18n="s3_text">Employer-sponsored work visas and freelance authorizations to legally work in Mexico.</p>
+          <div class="d-flex align-items-center gap-3 mt-3" style="font-size:.8rem;color:#999">
+            <span><i class="bi bi-clock me-1"></i>2–5 weeks</span>
+            <span><i class="bi bi-currency-dollar me-1"></i>From $600 USD</span>
+          </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal stagger-4">
@@ -438,6 +443,10 @@
           </div>
           <h4 data-i18n="s4_title">Citizenship & Naturalization</h4>
           <p data-i18n="s4_text">Complete guidance through the Mexican naturalization process, from language exams to the ceremony.</p>
+          <div class="d-flex align-items-center gap-3 mt-3" style="font-size:.8rem;color:#999">
+            <span><i class="bi bi-clock me-1"></i>6–12 months</span>
+            <span><i class="bi bi-currency-dollar me-1"></i>From $1,500 USD</span>
+          </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal stagger-5">
@@ -447,6 +456,10 @@
           </div>
           <h4 data-i18n="s5_title">Business & Investor Visas</h4>
           <p data-i18n="s5_text">Start or invest in a business in Mexico with the correct immigration and corporate structure.</p>
+          <div class="d-flex align-items-center gap-3 mt-3" style="font-size:.8rem;color:#999">
+            <span><i class="bi bi-clock me-1"></i>4–8 weeks</span>
+            <span><i class="bi bi-currency-dollar me-1"></i>From $1,200 USD</span>
+          </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 reveal stagger-6">
@@ -456,6 +469,10 @@
           </div>
           <h4 data-i18n="s6_title">Family Reunification</h4>
           <p data-i18n="s6_text">Bring your spouse, children, or parents to live with you in Mexico through family-based visas.</p>
+          <div class="d-flex align-items-center gap-3 mt-3" style="font-size:.8rem;color:#999">
+            <span><i class="bi bi-clock me-1"></i>3–6 weeks</span>
+            <span><i class="bi bi-currency-dollar me-1"></i>From $500 USD</span>
+          </div>
         </div>
       </div>
     </div>
@@ -1090,10 +1107,6 @@
 
 <!-- ══════════════ CTA ══════════════ -->
 <section id="contact" class="cta-section" style="position:relative;overflow:hidden">
-  <div class="fibonacci-spiral" style="opacity:.06"></div>
-  <div class="phi-dot-pattern" style="opacity:.025"></div>
-  <div class="phi-accent-circle" style="top:-80px;left:10%;opacity:.04"></div>
-  <div class="phi-accent-circle" style="bottom:-100px;right:15%;width:382px;height:382px;opacity:.03"></div>
   <canvas class="golden-canvas golden-canvas-sm" id="goldenCanvasCta"></canvas>
   <div class="container position-relative" style="z-index:2">
     <div class="row justify-content-center text-center">
