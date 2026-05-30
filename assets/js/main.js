@@ -1695,11 +1695,13 @@ function initGoldenCanvas() {
   createGolden('goldenCanvas', 0.618);
   createGolden('goldenCanvasCta', 0.5);
 
-  createSection('gcVisas', 0.618, [layerPhyllotaxis, layerRings]);
-  createSection('gcHistory', 0.382, [layerSpiral, layerSegments]);
-  createSection('gcProcess', 0.618, [layerRects, layerPentagons]);
-  createSection('gcFaq', 0.382, [layerRings, layerSpiral]);
-  createSection('gcFooter', 0.618, [layerPhyllotaxis, layerPentagons]);
+  if (window.innerWidth > 768) {
+    createSection('gcVisas', 0.618, [layerPhyllotaxis, layerRings]);
+    createSection('gcHistory', 0.382, [layerSpiral, layerSegments]);
+    createSection('gcProcess', 0.618, [layerRects, layerPentagons]);
+    createSection('gcFaq', 0.382, [layerRings, layerSpiral]);
+    createSection('gcFooter', 0.618, [layerPhyllotaxis, layerPentagons]);
+  }
 }
 
 function initTypedText() {
