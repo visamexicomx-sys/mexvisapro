@@ -10,8 +10,8 @@ with open(os.path.join(BASE, 'index.html'), 'r', encoding='utf-8') as f:
 LANGS = {
     'en': {
         'html_lang': 'en',
-        'title': 'Immigration Services Riviera Maya | Visa & Residency — MexVisa Pro',
-        'description': 'Get Mexican residency in 2–4 weeks. Temporary & permanent visas, work permits, citizenship in Cancún, Playa del Carmen, Tulum. 2,500+ approved. Free consultation.',
+        'title': 'Immigration Services Riviera Maya | Visa & Residency Experts',
+        'description': 'Get Mexican residency in 2–4 weeks. Temporary & permanent visas, work permits, citizenship. Cancún, Playa del Carmen, Tulum. 2,500+ approved.',
         'keywords': 'immigration services Riviera Maya, Mexico visa consultant, temporary residency Mexico, permanent residency Mexico, work permit Mexico, Mexican citizenship naturalization, immigration lawyer Cancun, immigration Playa del Carmen, visa services Tulum, INM appointment Quintana Roo, digital nomad visa Mexico, investor visa Mexico, retirement visa Mexico, family reunification visa Mexico, expat relocation Mexico, residency card Mexico, Mexico immigration consultant 2026, how to get residency in Mexico, Mexico visa application process, best immigration lawyer Riviera Maya',
         'og_title': 'Immigration Services Riviera Maya — Visa & Residency Experts',
         'og_locale': 'en_US',
@@ -31,7 +31,7 @@ LANGS = {
     },
     'es': {
         'html_lang': 'es',
-        'title': 'Servicios Migratorios Riviera Maya | Visa y Residencia — MexVisa Pro',
+        'title': 'Servicios Migratorios Riviera Maya | Visa y Residencia',
         'description': 'Obtén tu residencia mexicana en 2–4 semanas. Visa temporal, permanente, permisos de trabajo, ciudadanía en Cancún, Playa del Carmen, Tulum. 2,500+ aprobados.',
         'keywords': 'servicios migratorios Riviera Maya, consultor migratorio México, residencia temporal México, residencia permanente México, permiso de trabajo México, ciudadanía mexicana naturalización, abogado migratorio Cancún, inmigración Playa del Carmen, servicios de visa Tulum, cita INM Quintana Roo, visa nómada digital México, visa inversionista México, visa jubilado México, visa reunificación familiar México, reubicación expatriados México, tarjeta de residencia México, trámite migratorio México 2026, cómo obtener residencia en México, proceso de solicitud de visa México, mejor abogado migratorio Riviera Maya',
         'og_title': 'Servicios Migratorios Riviera Maya — Expertos en Visa y Residencia',
