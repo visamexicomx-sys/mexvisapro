@@ -308,8 +308,8 @@ const translations = {
     p4_title: "¡Visa Aprobada!",
     p4_text: "Recibe tu visa o tarjeta de residencia. También asistimos con trámites post-aprobación.",
 
-    test_title: "Testimonios de Clientes",
-    test_sub: "Escucha a personas que se mudaron exitosamente a México con nuestra ayuda",
+    test_title: "Testimonios de Inmigración México",
+    test_sub: "Historias de expats que obtuvieron su residencia en México con nuestra ayuda",
     t1_text: "\"Hicieron todo el proceso increíblemente fácil. Obtuve mi residencia temporal en solo 3 semanas. ¡Muy recomendados!\"",
     t1_author: "James W.",
     t1_origin: "Estados Unidos",
