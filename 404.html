@@ -3,24 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Not Found — MexVisa Pro</title>
-  <meta name="robots" content="noindex, nofollow">
+  <title>Page Not Found — MexVisa Pro Immigration Services</title>
+  <meta name="description" content="Page not found. Visit MexVisa Pro for immigration services in Riviera Maya — temporary & permanent residency, work permits, citizenship in Cancún, Playa del Carmen, Tulum.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#f0a500">
+  <link rel="canonical" href="https://mexvisapro.com/">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
   <style>
     :root{--gold:#f0a500;--dark:#0b1120}
     *{margin:0;padding:0;box-sizing:border-box}
-    body{font-family:'Inter',system-ui,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--dark) 0%,#1a2744 50%,#0d3b66 100%);color:#fff;text-align:center;padding:2rem}
-    .wrap{max-width:480px}
+    body{font-family:'Inter',system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column;background:linear-gradient(135deg,var(--dark) 0%,#1a2744 50%,#0d3b66 100%);color:#fff}
+    .main{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem}
+    .wrap{max-width:520px}
     h1{font-size:6rem;font-weight:900;background:linear-gradient(135deg,var(--gold),#ffd54f);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
-    p{margin:1rem 0;color:rgba(255,255,255,.75);font-size:1.1rem}
-    a{display:inline-block;margin-top:1.5rem;padding:.85rem 2rem;background:linear-gradient(135deg,var(--gold),#d4940a);color:#fff;text-decoration:none;font-weight:700;border-radius:10px;box-shadow:0 4px 20px rgba(240,165,0,.35);transition:transform .2s}
-    a:hover{transform:translateY(-2px)}
+    h2{font-size:1.3rem;font-weight:700;margin:1rem 0 .5rem;color:#fff}
+    p{color:rgba(255,255,255,.75);font-size:1rem;line-height:1.6}
+    .btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem}
+    .btn-gold{padding:.85rem 2rem;background:linear-gradient(135deg,var(--gold),#d4940a);color:#fff;text-decoration:none;font-weight:700;border-radius:10px;box-shadow:0 4px 20px rgba(240,165,0,.35);transition:transform .2s}
+    .btn-gold:hover{transform:translateY(-2px);color:#fff}
+    .btn-outline{padding:.85rem 2rem;border:2px solid rgba(255,255,255,.3);color:#fff;text-decoration:none;font-weight:600;border-radius:10px;transition:all .2s}
+    .btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+    .links{margin-top:2rem;display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap}
+    .links a{color:var(--gold);text-decoration:none;font-size:.9rem;font-weight:500}
+    .links a:hover{text-decoration:underline}
+    .footer-404{text-align:center;padding:1.5rem;color:rgba(255,255,255,.4);font-size:.8rem}
+    .footer-404 a{color:var(--gold);text-decoration:none}
+    @media(max-width:576px){h1{font-size:4rem}h2{font-size:1.1rem}}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>404</h1>
-    <p>This page doesn't exist. Let's get you back on track.</p>
-    <a href="/">Go to Homepage</a>
+  <div class="main">
+    <div class="wrap">
+      <h1>404</h1>
+      <h2>Page Not Found</h2>
+      <p>The page you're looking for doesn't exist or has moved. We can help you find what you need — immigration services, visa guides, or contact our experts.</p>
+      <div class="btns">
+        <a href="/" class="btn-gold">Go to Homepage</a>
+        <a href="https://wa.me/529987583392?text=Hello!%20I%20need%20immigration%20help" class="btn-outline" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+      <div class="links">
+        <a href="/blog/">Immigration Blog</a>
+        <a href="/#services">Our Services</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-404">
+    <a href="/">MexVisa<strong>Pro</strong></a> — Immigration Services Riviera Maya · © 2026
   </div>
 </body>
 </html>

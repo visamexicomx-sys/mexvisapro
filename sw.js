@@ -1,4 +1,4 @@
-const CACHE = 'mexvisapro-v6';
+const CACHE = 'mexvisapro-v7';
 const ASSETS = [
   '/',
   '/assets/css/style.min.css',
@@ -7,6 +7,8 @@ const ASSETS = [
   '/assets/img/why-us.svg',
   '/assets/img/icon-192.png',
   '/manifest.json',
+  '/favicon.ico',
+  '/assets/img/apple-touch-icon.png',
   '/blog/',
   '/blog/mexico-temporary-residency-guide/',
   '/blog/permanent-residency-mexico-requirements/',
