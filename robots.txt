@@ -6,6 +6,7 @@ Allow: /ru/
 Allow: /zh/
 Allow: /assets/
 Allow: /blog/
+Allow: /sitemap/
 Disallow: /sw.js
 Sitemap: https://mexvisapro.com/sitemap.xml
 

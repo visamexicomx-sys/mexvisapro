@@ -151,6 +151,14 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Sitemap -->
+  <url>
+    <loc>https://mexvisapro.com/sitemap/</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
   <!-- Legal Pages -->
   <url>
     <loc>https://mexvisapro.com/privacy/</loc>

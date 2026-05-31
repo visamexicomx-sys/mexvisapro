@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitemap — MexVisa Pro Immigration Services</title>
+  <meta name="description" content="Visual sitemap of MexVisa Pro. Explore all pages — immigration services, visa guides, blog articles, and resources for Riviera Maya, Mexico.">
+  <meta name="theme-color" content="#f0a500">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="canonical" href="https://mexvisapro.com/sitemap/">
+  <style>
+    :root{--gold:#f0a500;--dark:#0b1120;--blue:#0d3b66}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Inter',system-ui,sans-serif;background:var(--dark);color:#fff;overflow-x:hidden;min-height:100vh}
+    canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0}
+    .overlay{position:relative;z-index:1;padding:2rem 1rem 4rem;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+    .title{text-align:center;margin-bottom:1rem}
+    .title h1{font-size:2rem;font-weight:900;margin-bottom:.3rem}
+    .title h1 em{font-style:normal;background:linear-gradient(135deg,var(--gold),#ffd54f);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .title p{color:rgba(255,255,255,.5);font-size:.85rem}
+    .back{position:fixed;top:1.2rem;left:1.2rem;z-index:10;color:var(--gold);text-decoration:none;font-weight:600;font-size:.9rem}
+    .back:hover{text-decoration:underline;color:#ffd54f}
+    #orbit{position:relative;width:min(700px,90vw);height:min(700px,90vw);margin:0 auto;flex-shrink:0}
+    .node{position:absolute;transform:translate(-50%,-50%);text-align:center;transition:transform .3s,filter .3s;cursor:pointer;text-decoration:none}
+    .node:hover{transform:translate(-50%,-50%) scale(1.15);filter:drop-shadow(0 0 20px rgba(240,165,0,.6));z-index:10}
+    .node-dot{width:14px;height:14px;border-radius:50%;margin:0 auto 6px;box-shadow:0 0 12px rgba(240,165,0,.5)}
+    .node-label{font-size:.7rem;font-weight:600;color:rgba(255,255,255,.85);max-width:110px;line-height:1.2;white-space:nowrap}
+    .node-sub{font-size:.55rem;color:rgba(255,255,255,.35);margin-top:2px}
+    .center-node{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;z-index:5}
+    .center-node a{text-decoration:none;color:#fff}
+    .center-logo{font-size:1.4rem;font-weight:900;color:#fff}
+    .center-logo span{color:var(--gold)}
+    .center-sub{font-size:.65rem;color:rgba(255,255,255,.4);margin-top:4px}
+    .ring{position:absolute;border-radius:50%;border:1px solid rgba(240,165,0,.06);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none}
+    .legend{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem}
+    .legend-item{display:flex;align-items:center;gap:.4rem;font-size:.7rem;color:rgba(255,255,255,.5)}
+    .legend-dot{width:10px;height:10px;border-radius:50%}
+    .trail{position:absolute;border-radius:50%;pointer-events:none;opacity:0;animation:pulse 2s ease-out infinite}
+    @keyframes pulse{0%{opacity:.4;transform:translate(-50%,-50%) scale(.5)}100%{opacity:0;transform:translate(-50%,-50%) scale(2.5)}}
+    @media(max-width:600px){.title h1{font-size:1.4rem}#orbit{width:95vw;height:95vw}.node-label{font-size:.6rem;max-width:80px}.center-logo{font-size:1.1rem}}
+  </style>
+</head>
+<body>
+<a href="/" class="back">← MexVisa Pro</a>
+<canvas id="bg"></canvas>
+
+<div class="overlay">
+  <div class="title">
+    <h1>Site <em>Map</em></h1>
+    <p>14 pages orbiting around MexVisa Pro</p>
+  </div>
+
+  <div id="orbit">
+    <div class="ring" style="width:40%;height:40%"></div>
+    <div class="ring" style="width:70%;height:70%"></div>
+    <div class="ring" style="width:95%;height:95%"></div>
+
+    <div class="center-node">
+      <a href="/">
+        <div class="center-logo">MexVisa<span>Pro</span></div>
+        <div class="center-sub">mexvisapro.com</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--gold)"></div>Main Pages</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#4fc3f7"></div>Languages</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#81c784"></div>Blog Articles</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ce93d8"></div>Legal</div>
+  </div>
+</div>
+
+<script>
+const pages = [
+  // Inner orbit — main pages
+  {url:'/',label:'Homepage',sub:'x-default',color:'#f0a500',orbit:1,speed:0.3},
+  {url:'/blog/',label:'Blog Index',sub:'5 articles',color:'#f0a500',orbit:1,speed:0.3},
+
+  // Middle orbit — languages
+  {url:'/en/',label:'English',sub:'EN',color:'#4fc3f7',orbit:2,speed:0.2},
+  {url:'/es/',label:'Español',sub:'ES',color:'#4fc3f7',orbit:2,speed:0.2},
+  {url:'/ru/',label:'Русский',sub:'RU',color:'#4fc3f7',orbit:2,speed:0.2},
+  {url:'/zh/',label:'中文',sub:'ZH',color:'#4fc3f7',orbit:2,speed:0.2},
+
+  // Outer orbit — blog articles + legal
+  {url:'/blog/mexico-temporary-residency-guide/',label:'Temp Residency',sub:'Guide 2026',color:'#81c784',orbit:3,speed:0.12},
+  {url:'/blog/permanent-residency-mexico-requirements/',label:'Perm Residency',sub:'Requirements',color:'#81c784',orbit:3,speed:0.12},
+  {url:'/blog/work-permit-mexico-2026/',label:'Work Permit',sub:'Mexico 2026',color:'#81c784',orbit:3,speed:0.12},
+  {url:'/blog/digital-nomad-visa-mexico/',label:'Digital Nomad',sub:'Visa Guide',color:'#81c784',orbit:3,speed:0.12},
+  {url:'/blog/mexico-citizenship-naturalization/',label:'Citizenship',sub:'Naturalization',color:'#81c784',orbit:3,speed:0.12},
+  {url:'/privacy/',label:'Privacy Policy',sub:'Legal',color:'#ce93d8',orbit:3,speed:0.12},
+  {url:'/terms/',label:'Terms of Service',sub:'Legal',color:'#ce93d8',orbit:3,speed:0.12},
+];
+
+const orbitEl = document.getElementById('orbit');
+const radii = {1: 0.18, 2: 0.33, 3: 0.45};
+const orbitGroups = {1:[], 2:[], 3:[]};
+pages.forEach(p => orbitGroups[p.orbit].push(p));
+
+const nodes = pages.map((p, i) => {
+  const a = document.createElement('a');
+  a.className = 'node';
+  a.href = p.url;
+  a.innerHTML = `<div class="node-dot" style="background:${p.color}"></div><div class="node-label">${p.label}</div><div class="node-sub">${p.sub}</div>`;
+  orbitEl.appendChild(a);
+
+  const groupIdx = orbitGroups[p.orbit].indexOf(p);
+  const groupLen = orbitGroups[p.orbit].length;
+  const baseAngle = (groupIdx / groupLen) * Math.PI * 2;
+
+  return {el: a, page: p, baseAngle, groupIdx, groupLen};
+});
+
+let t = 0;
+function animate() {
+  t += 0.004;
+  const W = orbitEl.offsetWidth;
+  const H = orbitEl.offsetHeight;
+  const cx = W / 2;
+  const cy = H / 2;
+
+  nodes.forEach(n => {
+    const r = radii[n.page.orbit] * Math.min(W, H);
+    const angle = n.baseAngle + t * n.page.speed;
+    const x = cx + Math.cos(angle) * r;
+    const y = cy + Math.sin(angle) * r;
+    n.el.style.left = x + 'px';
+    n.el.style.top = y + 'px';
+  });
+
+  requestAnimationFrame(animate);
+}
+animate();
+
+// Background canvas — particle field with sin/cos waves
+const canvas = document.getElementById('bg');
+const ctx = canvas.getContext('2d');
+let cw, ch;
+function resize() {
+  cw = canvas.width = window.innerWidth;
+  ch = canvas.height = window.innerHeight;
+}
+resize();
+window.addEventListener('resize', resize);
+
+const particles = Array.from({length: 120}, () => ({
+  x: Math.random() * 2000,
+  y: Math.random() * 2000,
+  r: Math.random() * 1.5 + 0.3,
+  vx: (Math.random() - 0.5) * 0.3,
+  vy: (Math.random() - 0.5) * 0.3,
+  phase: Math.random() * Math.PI * 2
+}));
+
+function drawBg() {
+  ctx.clearRect(0, 0, cw, ch);
+
+  // Sin/cos wave grid
+  ctx.strokeStyle = 'rgba(240,165,0,0.03)';
+  ctx.lineWidth = 1;
+  for (let i = 0; i < 6; i++) {
+    ctx.beginPath();
+    for (let x = 0; x < cw; x += 3) {
+      const y = ch/2 + Math.sin(x * 0.005 + t * 0.5 + i * 1.2) * (80 + i * 40) + Math.cos(x * 0.003 + t * 0.3) * 30;
+      x === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  }
+
+  // Particles
+  particles.forEach(p => {
+    p.x += p.vx + Math.sin(t + p.phase) * 0.1;
+    p.y += p.vy + Math.cos(t * 0.7 + p.phase) * 0.1;
+    if (p.x < 0) p.x = cw;
+    if (p.x > cw) p.x = 0;
+    if (p.y < 0) p.y = ch;
+    if (p.y > ch) p.y = 0;
+
+    const alpha = 0.15 + Math.sin(t * 2 + p.phase) * 0.1;
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(240,165,0,${alpha})`;
+    ctx.fill();
+  });
+
+  // Connection lines between nearby particles
+  ctx.strokeStyle = 'rgba(240,165,0,0.02)';
+  for (let i = 0; i < particles.length; i++) {
+    for (let j = i + 1; j < particles.length; j++) {
+      const dx = particles[i].x - particles[j].x;
+      const dy = particles[i].y - particles[j].y;
+      const d = dx*dx + dy*dy;
+      if (d < 15000) {
+        ctx.beginPath();
+        ctx.moveTo(particles[i].x, particles[i].y);
+        ctx.lineTo(particles[j].x, particles[j].y);
+        ctx.stroke();
+      }
+    }
+  }
+
+  requestAnimationFrame(drawBg);
+}
+drawBg();
+</script>
+</body>
+</html>
