@@ -1,4 +1,4 @@
-const CACHE = 'mexvisapro-v8';
+const CACHE = 'mexvisapro-v9';
 const ASSETS = [
   '/',
   '/assets/css/style.min.css',
