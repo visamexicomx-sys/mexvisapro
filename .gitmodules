@@ -1,0 +1,3 @@
+[submodule ".agents/references/prompt-engineering-guide"]
+	path = .agents/references/prompt-engineering-guide
+	url = https://github.com/username/prompt-engineering-guide
