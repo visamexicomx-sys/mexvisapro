@@ -21,8 +21,8 @@
   <!-- <meta name="baidu-site-verification" content="YOUR_BAIDU_CODE"> -->
 
   <!-- Hreflang for multilingual SEO -->
-  <link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/">
   <link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/">
+  <link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/">
   <link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/">
   <link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/">
   <link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/">
@@ -310,9 +310,9 @@
       window.location.replace('/'+saved+'/');
       return;
     }
-    var nav=(navigator.language||navigator.userLanguage||'en').toLowerCase();
-    var lang='en';
-    if(nav.indexOf('es')===0)lang='es';
+    var nav=(navigator.language||navigator.userLanguage||'es').toLowerCase();
+    var lang='es';
+    if(nav.indexOf('en')===0)lang='en';
     else if(nav.indexOf('ru')===0)lang='ru';
     else if(nav.indexOf('zh')===0)lang='zh';
     localStorage.setItem('lang',lang);
