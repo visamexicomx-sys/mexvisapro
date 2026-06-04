@@ -1,4 +1,4 @@
-const CACHE = 'mexvisapro-v9';
+const CACHE = 'mexvisapro-v10';
 const ASSETS = [
   '/',
   '/assets/css/style.min.css',
@@ -15,7 +15,8 @@ const ASSETS = [
   '/blog/work-permit-mexico-2026/',
   '/blog/digital-nomad-visa-mexico/',
   '/blog/mexico-citizenship-naturalization/',
-  '/sitemap/'
+  '/sitemap/',
+  '/blog/visa-buying-property-mexico/'
 ];
 
 self.addEventListener('install', e => {
