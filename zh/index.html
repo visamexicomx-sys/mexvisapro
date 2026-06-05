@@ -1239,6 +1239,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 <script src="../assets/js/main.min.js" defer></script>
-<script>if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js')</script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js').then(r=>{r.update();r.addEventListener('updatefound',()=>{const w=r.installing;w.addEventListener('statechange',()=>{if(w.state==='activated')location.reload()})})});navigator.serviceWorker.addEventListener('message',e=>{if(e.data&&e.data.type==='SW_UPDATED')location.reload()})}</script>
 </body>
 </html>
