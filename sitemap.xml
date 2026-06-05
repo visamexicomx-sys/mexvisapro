@@ -116,64 +116,114 @@
   <!-- Blog -->
   <url>
     <loc>https://mexvisapro.com/blog/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/mexico-temporary-residency-guide/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/permanent-residency-mexico-requirements/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/work-permit-mexico-2026/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/digital-nomad-visa-mexico/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/mexico-citizenship-naturalization/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/visa-buying-property-mexico/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
   </url>
 
   <url>
     <loc>https://mexvisapro.com/blog/retire-in-mexico-2026/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/mexico-visa-requirements-2026/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
   </url>
   <url>
     <loc>https://mexvisapro.com/blog/mexico-tourist-visa-fmm/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
   </url>
 
   <!-- Sitemap -->
@@ -196,6 +246,366 @@
     <lastmod>2026-06-04</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/mexico-temporary-residency-guide/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/mexico-temporary-residency-guide/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/mexico-temporary-residency-guide/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-temporary-residency-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-temporary-residency-guide/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/permanent-residency-mexico-requirements/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/permanent-residency-mexico-requirements/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/permanent-residency-mexico-requirements/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/permanent-residency-mexico-requirements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/permanent-residency-mexico-requirements/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/work-permit-mexico-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/work-permit-mexico-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/work-permit-mexico-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/work-permit-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/work-permit-mexico-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/digital-nomad-visa-mexico/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/digital-nomad-visa-mexico/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/digital-nomad-visa-mexico/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/digital-nomad-visa-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/digital-nomad-visa-mexico/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/mexico-citizenship-naturalization/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/mexico-citizenship-naturalization/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/mexico-citizenship-naturalization/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-citizenship-naturalization/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-citizenship-naturalization/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/visa-buying-property-mexico/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/visa-buying-property-mexico/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/visa-buying-property-mexico/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/visa-buying-property-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/visa-buying-property-mexico/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/retire-in-mexico-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/retire-in-mexico-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/retire-in-mexico-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/retire-in-mexico-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/retire-in-mexico-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/mexico-visa-requirements-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/mexico-visa-requirements-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/mexico-visa-requirements-2026/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-visa-requirements-2026/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-visa-requirements-2026/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/es/blog/mexico-tourist-visa-fmm/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/mexico-tourist-visa-fmm/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/mexico-tourist-visa-fmm/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/mexico-tourist-visa-fmm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-tourist-visa-fmm/"/>
   </url>
 
 </urlset>
