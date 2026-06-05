@@ -91,38 +91,48 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <style>
-    :root{--primary:#0d6efd;--gold:#f0a500;--dark:#0b1120;--glass:rgba(255,255,255,.07)}
+    :root{--gold:#f0a500;--dark:#0b1120;--navy:#1a2744;--bg:#f7f8fc}
     *{margin:0;padding:0;box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{font-family:'Inter',system-ui,sans-serif;color:#e0e0e0;background:var(--dark);overflow-x:hidden}
-    .navbar-custom{background:rgba(11,17,32,.97);backdrop-filter:blur(12px);padding:.8rem 0}
-    .navbar-custom .navbar-brand{font-weight:800;font-size:1.5rem;color:#fff;text-decoration:none}
-    .navbar-custom .navbar-brand span{color:var(--gold)}
-    .navbar-custom .nav-link{color:rgba(255,255,255,.8);font-weight:500}
-    .navbar-custom .nav-link:hover{color:var(--gold)}
-    .btn-gold{background:linear-gradient(135deg,var(--gold),#d4940a);color:#fff;font-weight:700;border:none;padding:.75rem 1.8rem;border-radius:10px;font-size:1rem;text-decoration:none;display:inline-block;box-shadow:0 4px 20px rgba(240,165,0,.35)}
-    .btn-gold:hover{color:#fff;transform:translateY(-2px)}
-    .article-hero{padding:8rem 0 3rem;background:linear-gradient(135deg,var(--dark) 0%,#1a2744 50%,#0d3b66 100%)}
-    .article-hero h1{font-size:2.5rem;font-weight:900;color:#fff;line-height:1.2;max-width:750px}
-    .article-hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--gold),#ffd54f);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-    .article-meta{font-size:.85rem;color:rgba(255,255,255,.5);margin-top:1rem}
-    .article-body{max-width:780px;margin:0 auto;padding:3rem 1rem 4rem}
-    .article-body h2{font-size:1.6rem;font-weight:800;color:#fff;margin:2.5rem 0 1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.08)}
-    .article-body h3{font-size:1.2rem;font-weight:700;color:var(--gold);margin:1.5rem 0 .75rem}
-    .article-body p{font-size:1.05rem;line-height:1.75;color:rgba(255,255,255,.78);margin-bottom:1.25rem}
-    .article-body ul,.article-body ol{margin:1rem 0 1.5rem 1.5rem;color:rgba(255,255,255,.78)}
-    .article-body li{margin-bottom:.5rem;line-height:1.6}
-    .article-body strong{color:#fff}
+    body{font-family:Inter,system-ui,sans-serif;color:#1e1e2d;background:#fff;overflow-x:hidden}
+    .nav-bar{background:#fff;border-bottom:1px solid #eee;padding:.7rem 0;position:sticky;top:0;z-index:100;box-shadow:0 1px 8px rgba(0,0,0,.04)}
+    .nav-bar .brand{font-weight:800;font-size:1.25rem;color:var(--dark);text-decoration:none}
+    .nav-bar .brand span{color:var(--gold)}
+    .nav-links a{color:#555;text-decoration:none;font-size:.85rem;font-weight:500}
+    .nav-links a:hover{color:var(--gold)}
+    .nav-wa{background:var(--gold);color:#fff!important;padding:.4rem .9rem;border-radius:8px;font-weight:600;font-size:.8rem}
+    .nav-wa:hover{background:#d4940a;color:#fff!important}
+    .article-hero{padding:4rem 0 2.5rem;background:linear-gradient(135deg,var(--dark) 0%,var(--navy) 60%,#0d3b66 100%);position:relative;overflow:hidden}
+    .article-hero::before{content:"";position:absolute;top:-40%;right:-15%;width:500px;height:500px;background:radial-gradient(circle,rgba(240,165,0,.1) 0%,transparent 70%);border-radius:50%}
+    .article-hero *{position:relative;z-index:1}
+    .article-hero .crumb{font-size:.8rem;margin-bottom:.8rem}
+    .article-hero .crumb a{color:var(--gold);text-decoration:none}
+    .article-hero .crumb span{color:rgba(255,255,255,.4)}
+    .article-hero h1{font-size:2.2rem;font-weight:900;color:#fff;line-height:1.25;max-width:720px}
+    .article-hero .lead-text{color:rgba(255,255,255,.65);font-size:1rem;max-width:600px;margin-top:.7rem;line-height:1.6}
+    .article-meta{font-size:.8rem;color:rgba(255,255,255,.45);margin-top:1rem;display:flex;gap:1.2rem;flex-wrap:wrap}
+    .article-body{max-width:760px;margin:0 auto;padding:2.5rem 1.2rem 3rem}
+    .article-body h2{font-size:1.45rem;font-weight:800;color:#1e1e2d;margin:2.5rem 0 .8rem;padding-top:1.5rem;border-top:2px solid #f0f0f0}
+    .article-body h3{font-size:1.1rem;font-weight:700;color:var(--dark);margin:1.5rem 0 .6rem;padding-left:.8rem;border-left:3px solid var(--gold)}
+    .article-body p{font-size:1rem;line-height:1.8;color:#444;margin-bottom:1.2rem}
+    .article-body ul,.article-body ol{margin:1rem 0 1.5rem 1.5rem;color:#444}
+    .article-body li{margin-bottom:.5rem;line-height:1.7;font-size:.95rem}
+    .article-body strong{color:#1e1e2d}
     .article-body a{color:var(--gold);text-decoration:underline}
-    .info-box{background:rgba(240,165,0,.08);border-left:4px solid var(--gold);padding:1.25rem 1.5rem;border-radius:0 10px 10px 0;margin:1.5rem 0}
-    .info-box p{margin:0;font-size:.95rem}
-    .cta-box{background:linear-gradient(135deg,rgba(240,165,0,.12),rgba(240,165,0,.05));border:1px solid rgba(240,165,0,.2);border-radius:16px;padding:2.5rem;text-align:center;margin:2.5rem 0}
-    .cta-box h3{color:#fff;font-size:1.4rem;margin-bottom:.5rem}
-    .cta-box p{color:rgba(255,255,255,.7);margin-bottom:1.25rem}
-    .blog-footer{background:rgba(11,17,32,.97);border-top:1px solid rgba(255,255,255,.08);padding:3rem 0;text-align:center;color:rgba(255,255,255,.5);font-size:.85rem}
-    .blog-footer a{color:var(--gold);text-decoration:none}
-    @media(max-width:768px){.article-hero h1{font-size:1.8rem}.article-hero{padding:6rem 0 2rem}.article-body{padding:2rem 1rem 3rem}}
-    @media(max-width:576px){.article-hero h1{font-size:1.5rem}}
+    .article-body a:hover{color:#d4940a}
+    .info-box{background:#fff8e6;border-left:4px solid var(--gold);padding:1.2rem 1.4rem;border-radius:0 12px 12px 0;margin:1.5rem 0}
+    .info-box p{margin:0;font-size:.92rem;color:#555;line-height:1.6}
+    .info-box strong{color:#1e1e2d}
+    .cta-box{background:linear-gradient(135deg,var(--dark),var(--navy));border-radius:16px;padding:2.5rem;text-align:center;margin:2.5rem 0}
+    .cta-box h3{color:#fff;font-size:1.3rem;margin-bottom:.4rem;font-weight:800}
+    .cta-box p{color:rgba(255,255,255,.65);margin-bottom:1.2rem;font-size:.9rem}
+    .btn-gold{background:linear-gradient(135deg,var(--gold),#d4940a);color:#fff;font-weight:700;border:none;padding:.7rem 1.6rem;border-radius:10px;font-size:.95rem;text-decoration:none;display:inline-block;box-shadow:0 4px 15px rgba(240,165,0,.35)}
+    .btn-gold:hover{color:#fff;transform:translateY(-2px);box-shadow:0 6px 20px rgba(240,165,0,.45)}
+    .back-link{display:inline-flex;align-items:center;gap:.4rem;color:var(--gold);text-decoration:none;font-weight:600;font-size:.9rem;margin-top:1rem}
+    .back-link:hover{color:#d4940a}
+    footer{background:var(--dark);padding:2rem 0;text-align:center;color:rgba(255,255,255,.45);font-size:.8rem}
+    footer a{color:var(--gold);text-decoration:none}
+    @media(max-width:768px){.article-hero h1{font-size:1.7rem}.article-hero{padding:3rem 0 2rem}.article-body{padding:2rem 1rem}}
   </style>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -132,26 +142,20 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="/"><i class="bi bi-globe-americas me-2"></i>MexVisa<span>Pro</span></a>
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navBlog" aria-controls="navBlog" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="bi bi-list text-white fs-4"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navBlog">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="/#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link active" href="/blog/">Blog</a></li>
-        <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
-      </ul>
+<nav class="nav-bar">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="brand" href="/"><i class="bi bi-globe-americas me-2"></i>MexVisa<span>Pro</span></a>
+    <div class="nav-links d-flex align-items-center gap-3">
+      <a href="/" class="d-none d-md-inline">Home</a>
+      <a href="/blog/" style="color:var(--gold);font-weight:700">Blog</a>
+      <a href="https://wa.me/529987583392?text=Hi!%20Free%20consultation%20please" target="_blank" rel="noopener" class="nav-wa"><i class="bi bi-whatsapp me-1"></i>Consult Free</a>
     </div>
   </div>
 </nav>
 
 <section class="article-hero">
   <div class="container">
-    <nav aria-label="breadcrumb"><ol class="breadcrumb" style="--bs-breadcrumb-divider:'›'"><li class="breadcrumb-item"><a href="/" style="color:var(--gold)">Home</a></li><li class="breadcrumb-item"><a href="/blog/" style="color:var(--gold)">Blog</a></li><li class="breadcrumb-item active text-white" aria-current="page">Permanent Residency</li></ol></nav>
+    <div class="crumb"><a href="/">Home</a> <span>›</span> <a href="/blog/">Blog</a> <span>›</span> <span style="color:rgba(255,255,255,.6)">Permanent Residency Mexico Req</span></div>
     <h1>Permanent Residency in Mexico: Requirements & <em>Step-by-Step Process</em></h1>
     <div class="article-meta"><i class="bi bi-calendar3 me-1"></i> May 25, 2026 · <i class="bi bi-clock ms-2 me-1"></i> 7 min read · <i class="bi bi-person ms-2 me-1"></i> MexVisa Pro Team</div>
   </div>
@@ -244,11 +248,10 @@
 
 </article>
 
-<footer class="blog-footer">
+<footer>
   <div class="container">
-    <p><a href="/"><i class="bi bi-globe-americas me-1"></i>MexVisa<strong>Pro</strong></a> — Immigration Services in Riviera Maya</p>
-    <p>© 2026 MexVisa Pro. All rights reserved.</p>
-    <p style="margin-top:.5rem"><a href="/privacy/" style="color:rgba(255,255,255,.4)">Privacy</a> · <a href="/terms/" style="color:rgba(255,255,255,.4)">Terms</a></p>
+    <p><a href="/"><i class="bi bi-globe-americas me-1"></i>MexVisa<strong>Pro</strong></a> — Immigration Services in Riviera Maya · Since 2009</p>
+    <p style="margin-top:.3rem">© 2026 MexVisa Pro · <a href="/privacy/" style="color:rgba(255,255,255,.35)">Privacy</a> · <a href="/terms/" style="color:rgba(255,255,255,.35)">Terms</a></p>
   </div>
 </footer>
 
