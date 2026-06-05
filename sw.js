@@ -1,4 +1,4 @@
-const CACHE = 'mexvisapro-v13';
+const CACHE = 'mexvisapro-v14';
 const ASSETS = [
   '/',
   '/assets/css/style.min.css',
@@ -16,6 +16,9 @@ const ASSETS = [
   '/blog/digital-nomad-visa-mexico/',
   '/blog/mexico-citizenship-naturalization/',
   '/blog/visa-buying-property-mexico/',
+  '/blog/retire-in-mexico-2026/',
+  '/blog/mexico-visa-requirements-2026/',
+  '/blog/mexico-tourist-visa-fmm/',
   '/partners/',
   '/sitemap/'
 ];
