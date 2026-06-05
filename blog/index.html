@@ -17,7 +17,6 @@
   <link rel="canonical" href="https://mexvisapro.com/blog/">
   <link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/">
   <link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/">
-
   <meta property="og:title" content="Immigration Blog Mexico — MexVisa Pro">
   <meta property="og:description" content="Expert guides on Mexican immigration. Visa types, residency requirements, work permits, and citizenship paths updated for 2026.">
   <meta property="og:type" content="website">
@@ -27,7 +26,6 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Immigration Blog Mexico — MexVisa Pro">
   <meta name="twitter:description" content="Expert guides on Mexican immigration. Updated 2026 requirements and tips.">
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -35,12 +33,7 @@
     "name": "MexVisa Pro Immigration Blog",
     "description": "Expert guides on Mexican immigration, visa types, residency requirements, and citizenship paths.",
     "url": "https://mexvisapro.com/blog/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "MexVisa Pro",
-      "url": "https://mexvisapro.com",
-      "logo": {"@type": "ImageObject", "url": "https://mexvisapro.com/assets/img/icon-512.png"}
-    },
+    "publisher": {"@type": "Organization", "name": "MexVisa Pro", "url": "https://mexvisapro.com", "logo": {"@type": "ImageObject", "url": "https://mexvisapro.com/assets/img/icon-512.png"}},
     "blogPost": [
       {"@type": "BlogPosting", "headline": "Visa for Buying Property in Mexico 2026", "url": "https://mexvisapro.com/blog/visa-buying-property-mexico/"},
       {"@type": "BlogPosting", "headline": "Mexico Temporary Residency Guide 2026", "url": "https://mexvisapro.com/blog/mexico-temporary-residency-guide/"},
@@ -54,7 +47,6 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mexvisapro.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://mexvisapro.com/blog/"}]}
   </script>
-
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,235 +55,360 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable summary">
   <style>
-    :root{--gold:#f0a500;--dark:#0b1120;--warm:#fffaf0}
+    :root{--gold:#f0a500;--gold-light:#fff8e6;--dark:#0b1120;--navy:#1a2744;--bg:#f7f8fc}
     *{margin:0;padding:0;box-sizing:border-box}
-    body{font-family:'Inter',system-ui,sans-serif;color:#1a1a1a;background:#fff}
+    body{font-family:'Inter',system-ui,sans-serif;color:#1e1e2d;background:var(--bg)}
 
-    .top-bar{background:var(--dark);padding:.6rem 0;font-size:.8rem;color:rgba(255,255,255,.7)}
-    .top-bar a{color:var(--gold);text-decoration:none;font-weight:600}
-    .top-bar a:hover{color:#ffd54f}
+    /* NAV */
+    .nav-bar{background:#fff;border-bottom:1px solid #eee;padding:.7rem 0;position:sticky;top:0;z-index:100;box-shadow:0 1px 8px rgba(0,0,0,.04)}
+    .nav-bar .brand{font-weight:800;font-size:1.25rem;color:var(--dark);text-decoration:none}
+    .nav-bar .brand span{color:var(--gold)}
+    .nav-links a{color:#555;text-decoration:none;font-size:.85rem;font-weight:500;transition:color .2s}
+    .nav-links a:hover{color:var(--gold)}
+    .nav-wa{background:var(--gold);color:#fff!important;padding:.4rem .9rem;border-radius:8px;font-weight:600;font-size:.8rem}
+    .nav-wa:hover{background:#d4940a;color:#fff!important}
 
-    .hero{background:linear-gradient(135deg,var(--dark) 0%,#1a2744 60%,#0d3b66 100%);padding:5rem 0 3.5rem;text-align:center}
-    .hero h1{font-size:2.8rem;font-weight:900;color:#fff;margin-bottom:.5rem}
-    .hero h1 span{background:linear-gradient(135deg,var(--gold),#ffd54f);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-    .hero p{color:rgba(255,255,255,.7);font-size:1.1rem;max-width:550px;margin:0 auto}
+    /* HERO */
+    .hero{background:var(--dark);position:relative;overflow:hidden;padding:4.5rem 0 3.5rem}
+    .hero::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(240,165,0,.12) 0%,transparent 70%);border-radius:50%}
+    .hero::after{content:'';position:absolute;bottom:-40%;left:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(13,110,253,.08) 0%,transparent 70%);border-radius:50%}
+    .hero *{position:relative;z-index:1}
+    .hero .crumb{font-size:.8rem}
+    .hero .crumb a{color:var(--gold);text-decoration:none}
+    .hero .crumb span{color:rgba(255,255,255,.4)}
+    .hero h1{font-size:3rem;font-weight:900;color:#fff;letter-spacing:-.5px;margin:.5rem 0}
+    .hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--gold),#ffd54f);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .hero .lead{color:rgba(255,255,255,.6);font-size:1.05rem;max-width:520px}
+    .hero-stats{display:flex;gap:2rem;margin-top:1.5rem}
+    .hero-stat{text-align:center}
+    .hero-stat .num{font-size:1.6rem;font-weight:900;color:var(--gold)}
+    .hero-stat .label{font-size:.7rem;color:rgba(255,255,255,.45);text-transform:uppercase;letter-spacing:.5px}
 
-    .articles{padding:3rem 0 4rem;background:#fff}
-    .card-article{border:1px solid #e8e8e8;border-radius:16px;padding:1.8rem;transition:all .25s;height:100%;background:#fff}
-    .card-article:hover{border-color:var(--gold);box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px)}
-    .card-article .tag{display:inline-block;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:.3rem .7rem;border-radius:20px;margin-bottom:.8rem}
-    .tag-residency{background:#e8f5e9;color:#2e7d32}
-    .tag-work{background:#e3f2fd;color:#1565c0}
-    .tag-nomad{background:#fff3e0;color:#e65100}
-    .tag-citizenship{background:#f3e5f5;color:#7b1fa2}
-    .tag-realestate{background:#fce4ec;color:#c62828}
-    .card-article h2{font-size:1.15rem;font-weight:700;color:#111;margin-bottom:.6rem;line-height:1.35}
-    .card-article h2 a{color:#111;text-decoration:none}
-    .card-article h2 a:hover{color:var(--gold)}
-    .card-article p{color:#555;font-size:.88rem;line-height:1.6;margin-bottom:0}
-    .card-article .meta{font-size:.75rem;color:#999;margin-top:.8rem}
-    .card-article .read-more{display:inline-block;margin-top:.8rem;font-size:.82rem;font-weight:600;color:var(--gold);text-decoration:none}
-    .card-article .read-more:hover{color:#d4940a}
+    /* FEATURED */
+    .featured{padding:3rem 0 0}
+    .featured-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,.06);border:1px solid #eee;transition:all .3s}
+    .featured-card:hover{box-shadow:0 12px 40px rgba(0,0,0,.1);transform:translateY(-2px)}
+    .featured-left{background:linear-gradient(135deg,var(--dark),var(--navy));padding:2.5rem;display:flex;flex-direction:column;justify-content:center;min-height:280px}
+    .featured-badge{display:inline-flex;align-items:center;gap:.4rem;background:rgba(240,165,0,.2);color:var(--gold);font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:.35rem .8rem;border-radius:20px;margin-bottom:1rem;width:fit-content}
+    .featured-left h2{font-size:1.5rem;font-weight:800;color:#fff;line-height:1.3;margin-bottom:.7rem}
+    .featured-left h2 a{color:#fff;text-decoration:none}
+    .featured-left h2 a:hover{color:var(--gold)}
+    .featured-left p{color:rgba(255,255,255,.65);font-size:.9rem;line-height:1.6}
+    .featured-right{padding:2.5rem;display:flex;flex-direction:column;justify-content:center}
+    .featured-right .meta{font-size:.78rem;color:#999;margin-bottom:1rem}
+    .feat-highlights{list-style:none;padding:0}
+    .feat-highlights li{display:flex;align-items:flex-start;gap:.6rem;margin-bottom:.7rem;font-size:.85rem;color:#555;line-height:1.5}
+    .feat-highlights li i{color:var(--gold);margin-top:3px;flex-shrink:0}
+    .btn-read{display:inline-flex;align-items:center;gap:.5rem;background:var(--gold);color:#fff;font-weight:700;padding:.6rem 1.4rem;border-radius:10px;text-decoration:none;font-size:.85rem;margin-top:.5rem;transition:all .2s;width:fit-content}
+    .btn-read:hover{background:#d4940a;color:#fff;transform:translateY(-1px)}
 
-    .cta-card{background:linear-gradient(135deg,var(--dark),#1a2744);border:none;color:#fff;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
-    .cta-card h2{color:#fff!important}
-    .cta-card h2 a{color:#fff!important}
-    .cta-card p{color:rgba(255,255,255,.7)!important}
-    .btn-gold{background:linear-gradient(135deg,var(--gold),#d4940a);color:#fff;font-weight:700;border:none;padding:.7rem 1.6rem;border-radius:10px;font-size:.95rem;text-decoration:none;display:inline-block;box-shadow:0 4px 15px rgba(240,165,0,.35)}
-    .btn-gold:hover{color:#fff;transform:translateY(-2px);box-shadow:0 6px 20px rgba(240,165,0,.45)}
+    /* ARTICLES GRID */
+    .articles{padding:2.5rem 0 3rem}
+    .section-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin-bottom:.3rem}
+    .section-title{font-size:1.6rem;font-weight:800;color:var(--dark);margin-bottom:1.5rem}
+    .card-a{background:#fff;border-radius:16px;padding:0;overflow:hidden;border:1px solid #eee;transition:all .3s;height:100%;display:flex;flex-direction:column}
+    .card-a:hover{box-shadow:0 8px 30px rgba(0,0,0,.08);transform:translateY(-3px);border-color:var(--gold)}
+    .card-top{height:6px}
+    .top-green{background:linear-gradient(90deg,#43a047,#66bb6a)}
+    .top-blue{background:linear-gradient(90deg,#1565c0,#42a5f5)}
+    .top-orange{background:linear-gradient(90deg,#e65100,#ff9800)}
+    .top-purple{background:linear-gradient(90deg,#6a1b9a,#ab47bc)}
+    .top-red{background:linear-gradient(90deg,#c62828,#ef5350)}
+    .card-body-a{padding:1.5rem;flex:1;display:flex;flex-direction:column}
+    .card-a .tag{display:inline-flex;align-items:center;gap:.3rem;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.4px;padding:.25rem .6rem;border-radius:6px;margin-bottom:.7rem;width:fit-content}
+    .tag-green{background:#e8f5e9;color:#2e7d32}
+    .tag-blue{background:#e3f2fd;color:#1565c0}
+    .tag-orange{background:#fff3e0;color:#e65100}
+    .tag-purple{background:#f3e5f5;color:#6a1b9a}
+    .tag-red{background:#fce4ec;color:#c62828}
+    .card-a h3{font-size:1.05rem;font-weight:700;color:#1e1e2d;line-height:1.35;margin-bottom:.5rem}
+    .card-a h3 a{color:#1e1e2d;text-decoration:none}
+    .card-a h3 a:hover{color:var(--gold)}
+    .card-a .desc{color:#666;font-size:.82rem;line-height:1.55;flex:1}
+    .card-a .foot{display:flex;justify-content:space-between;align-items:center;margin-top:1rem;padding-top:.8rem;border-top:1px solid #f0f0f0}
+    .card-a .foot .date{font-size:.72rem;color:#aaa}
+    .card-a .foot .arrow{width:32px;height:32px;border-radius:50%;background:var(--gold-light);color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:.85rem;transition:all .2s}
+    .card-a:hover .foot .arrow{background:var(--gold);color:#fff}
 
-    .resources{padding:3rem 0 3.5rem;background:var(--warm)}
-    .resources h2{font-size:1.5rem;font-weight:800;color:#111;margin-bottom:.3rem}
-    .resources .subtitle{color:#777;font-size:.9rem;margin-bottom:2rem}
-    .res-card{background:#fff;border:1px solid #e8e8e8;border-radius:12px;padding:1.3rem;transition:all .2s;height:100%}
-    .res-card:hover{border-color:var(--gold);box-shadow:0 4px 15px rgba(0,0,0,.06)}
-    .res-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;margin-bottom:.8rem}
-    .res-card h3{font-size:.88rem;font-weight:700;color:#111;margin-bottom:.3rem}
-    .res-card p{font-size:.78rem;color:#777;line-height:1.5;margin-bottom:.5rem}
-    .res-card a{font-size:.78rem;font-weight:600;color:var(--gold);text-decoration:none}
-    .res-card a:hover{color:#d4940a}
+    /* CTA BANNER */
+    .cta-banner{margin:0 0 3rem;background:linear-gradient(135deg,var(--dark) 0%,var(--navy) 100%);border-radius:20px;padding:2.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem;box-shadow:0 4px 25px rgba(11,17,32,.2)}
+    .cta-banner h3{font-size:1.3rem;font-weight:800;color:#fff;margin-bottom:.3rem}
+    .cta-banner p{color:rgba(255,255,255,.6);font-size:.88rem;margin:0}
+    .btn-wa{display:inline-flex;align-items:center;gap:.5rem;background:var(--gold);color:#fff;font-weight:700;padding:.75rem 1.8rem;border-radius:12px;text-decoration:none;font-size:.95rem;box-shadow:0 4px 20px rgba(240,165,0,.35);transition:all .2s;flex-shrink:0}
+    .btn-wa:hover{background:#d4940a;color:#fff;transform:translateY(-2px);box-shadow:0 6px 25px rgba(240,165,0,.45)}
 
-    footer{background:var(--dark);padding:2.5rem 0;text-align:center;color:rgba(255,255,255,.5);font-size:.82rem}
+    /* RESOURCES */
+    .resources{padding:3rem 0 3.5rem;background:#fff}
+    .res-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+    .res-item{background:var(--bg);border-radius:14px;padding:1.3rem;transition:all .25s;border:1px solid transparent;position:relative;overflow:hidden}
+    .res-item::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold);opacity:0;transition:opacity .25s}
+    .res-item:hover{border-color:#ddd;box-shadow:0 4px 15px rgba(0,0,0,.05)}
+    .res-item:hover::before{opacity:1}
+    .res-item .icon-wrap{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;margin-bottom:.8rem}
+    .res-item h4{font-size:.82rem;font-weight:700;color:#1e1e2d;margin-bottom:.3rem}
+    .res-item p{font-size:.73rem;color:#888;line-height:1.5;margin-bottom:.5rem}
+    .res-item a{font-size:.73rem;font-weight:600;color:var(--gold);text-decoration:none;display:inline-flex;align-items:center;gap:.3rem}
+    .res-item a:hover{color:#d4940a}
+
+    /* FOOTER */
+    footer{background:var(--dark);padding:2.5rem 0;text-align:center;color:rgba(255,255,255,.45);font-size:.8rem}
     footer a{color:var(--gold);text-decoration:none}
 
-    @media(max-width:768px){.hero h1{font-size:1.8rem}.hero{padding:3.5rem 0 2.5rem}.articles{padding:2rem 0 3rem}}
+    @media(max-width:992px){.res-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:768px){
+      .hero h1{font-size:2rem}.hero{padding:3rem 0 2.5rem}
+      .hero-stats{gap:1.2rem}.hero-stat .num{font-size:1.2rem}
+      .featured-left{min-height:auto}
+      .res-grid{grid-template-columns:1fr 1fr}
+      .cta-banner{flex-direction:column;text-align:center}
+    }
+    @media(max-width:576px){
+      .hero h1{font-size:1.6rem}
+      .res-grid{grid-template-columns:1fr}
+    }
   </style>
 </head>
 <body>
 
-<div class="top-bar">
-  <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
-    <a href="/"><i class="bi bi-globe-americas me-1"></i>MexVisa<strong>Pro</strong></a>
-    <div class="d-flex gap-3">
-      <a href="/">Home</a>
-      <a href="/#services">Services</a>
-      <span style="color:rgba(255,255,255,.4)">|</span>
-      <a href="https://wa.me/529987583392" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>Free Consultation</a>
+<nav class="nav-bar">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="brand" href="/"><i class="bi bi-globe-americas me-2"></i>MexVisa<span>Pro</span></a>
+    <div class="nav-links d-flex align-items-center gap-3">
+      <a href="/" class="d-none d-md-inline">Home</a>
+      <a href="/#services" class="d-none d-md-inline">Services</a>
+      <a href="/blog/" style="color:var(--gold);font-weight:700">Blog</a>
+      <a href="https://wa.me/529987583392?text=Hi!%20Free%20consultation%20please" target="_blank" rel="noopener" class="nav-wa"><i class="bi bi-whatsapp me-1"></i>Consult Free</a>
     </div>
   </div>
-</div>
+</nav>
 
 <section class="hero">
   <div class="container">
-    <nav aria-label="breadcrumb"><ol class="breadcrumb justify-content-center mb-3" style="--bs-breadcrumb-divider:'›'"><li class="breadcrumb-item"><a href="/" style="color:var(--gold)">Home</a></li><li class="breadcrumb-item active text-white">Blog</li></ol></nav>
-    <h1>Immigration <span>Blog</span></h1>
-    <p>Expert guides, official resources, and tips on Mexican immigration — updated for 2026.</p>
-  </div>
-</section>
-
-<section class="articles">
-  <div class="container">
-    <div class="row g-4">
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-article">
-          <span class="tag tag-realestate"><i class="bi bi-house-door me-1"></i>Real Estate</span>
-          <h2><a href="/blog/visa-buying-property-mexico/">Visa for Buying Property in Mexico: What Foreigners Need to Know</a></h2>
-          <p>Visa requirements, fideicomiso trusts, restricted zones, residency options for property buyers.</p>
-          <div class="meta"><i class="bi bi-calendar3 me-1"></i>June 4, 2026 · 8 min</div>
-          <a href="/blog/visa-buying-property-mexico/" class="read-more">Read guide <i class="bi bi-arrow-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-article">
-          <span class="tag tag-residency"><i class="bi bi-card-heading me-1"></i>Residency</span>
-          <h2><a href="/blog/mexico-temporary-residency-guide/">Mexico Temporary Residency 2026: Requirements, Process & Costs</a></h2>
-          <p>Everything about getting Residente Temporal — income requirements, documents, INM process, and expert tips.</p>
-          <div class="meta"><i class="bi bi-calendar3 me-1"></i>May 28, 2026 · 8 min</div>
-          <a href="/blog/mexico-temporary-residency-guide/" class="read-more">Read guide <i class="bi bi-arrow-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-article">
-          <span class="tag tag-residency"><i class="bi bi-shield-check me-1"></i>Residency</span>
-          <h2><a href="/blog/permanent-residency-mexico-requirements/">Permanent Residency Mexico: Requirements & Step-by-Step Process</a></h2>
-          <p>How to get Residente Permanente. Financial requirements, family ties pathway, upgrade from temporary.</p>
-          <div class="meta"><i class="bi bi-calendar3 me-1"></i>May 25, 2026 · 7 min</div>
-          <a href="/blog/permanent-residency-mexico-requirements/" class="read-more">Read guide <i class="bi bi-arrow-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-article">
-          <span class="tag tag-work"><i class="bi bi-briefcase me-1"></i>Work</span>
-          <h2><a href="/blog/work-permit-mexico-2026/">Work Permit Mexico 2026: How to Get Legal Authorization</a></h2>
-          <p>Employer-sponsored permits, freelance options, INM requirements, timelines, and mistakes to avoid.</p>
-          <div class="meta"><i class="bi bi-calendar3 me-1"></i>May 20, 2026 · 6 min</div>
-          <a href="/blog/work-permit-mexico-2026/" class="read-more">Read guide <i class="bi bi-arrow-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-article">
-          <span class="tag tag-nomad"><i class="bi bi-laptop me-1"></i>Digital Nomad</span>
-          <h2><a href="/blog/digital-nomad-visa-mexico/">Digital Nomad Visa Mexico: Remote Work Legally in Paradise</a></h2>
-          <p>Visa options for remote workers, tax implications, best cities in Riviera Maya, INM compliance.</p>
-          <div class="meta"><i class="bi bi-calendar3 me-1"></i>May 15, 2026 · 7 min</div>
-          <a href="/blog/digital-nomad-visa-mexico/" class="read-more">Read guide <i class="bi bi-arrow-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-article">
-          <span class="tag tag-citizenship"><i class="bi bi-flag me-1"></i>Citizenship</span>
-          <h2><a href="/blog/mexico-citizenship-naturalization/">Mexican Citizenship & Naturalization: Complete 2026 Guide</a></h2>
-          <p>Naturalization process, language exam, eligibility after residency, dual citizenship rules.</p>
-          <div class="meta"><i class="bi bi-calendar3 me-1"></i>May 10, 2026 · 9 min</div>
-          <a href="/blog/mexico-citizenship-naturalization/" class="read-more">Read guide <i class="bi bi-arrow-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-article cta-card">
-          <i class="bi bi-whatsapp" style="font-size:2.2rem;color:var(--gold);margin-bottom:.8rem"></i>
-          <h2 style="font-size:1.1rem">Have a Question?</h2>
-          <p>Our experts respond in under 30 minutes.</p>
-          <a href="https://wa.me/529987583392?text=Hello!%20I%20have%20a%20question%20about%20immigration" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>Free Consultation</a>
-        </div>
-      </div>
-
+    <div class="crumb"><a href="/">Home</a> <span>›</span> <span style="color:rgba(255,255,255,.6)">Blog</span></div>
+    <h1>Immigration <em>Blog</em></h1>
+    <p class="lead">Expert guides and official resources for foreigners moving to Mexico — written by Riviera Maya immigration specialists.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">6</div><div class="label">Guides</div></div>
+      <div class="hero-stat"><div class="num">2,500+</div><div class="label">Visas Done</div></div>
+      <div class="hero-stat"><div class="num">2026</div><div class="label">Updated</div></div>
     </div>
   </div>
 </section>
 
+<!-- FEATURED ARTICLE -->
+<section class="featured">
+  <div class="container">
+    <div class="featured-card">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <div class="featured-left">
+            <div class="featured-badge"><i class="bi bi-star-fill"></i> Latest Guide</div>
+            <h2><a href="/blog/visa-buying-property-mexico/">Visa for Buying Property in Mexico: What Foreigners Need to Know in 2026</a></h2>
+            <p>The complete guide to purchasing real estate in Mexico as a foreigner — from fideicomiso trusts to residency options.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="featured-right">
+            <div class="meta"><i class="bi bi-calendar3 me-1"></i> June 4, 2026 · <i class="bi bi-clock ms-2 me-1"></i> 8 min read</div>
+            <ul class="feat-highlights">
+              <li><i class="bi bi-check-circle-fill"></i>Do you need a visa to buy? (Short answer: no)</li>
+              <li><i class="bi bi-check-circle-fill"></i>Restricted zones: coastal & border areas explained</li>
+              <li><i class="bi bi-check-circle-fill"></i>Fideicomiso bank trust — how it works</li>
+              <li><i class="bi bi-check-circle-fill"></i>Why residency helps property owners</li>
+              <li><i class="bi bi-check-circle-fill"></i>Common mistakes to avoid</li>
+            </ul>
+            <a href="/blog/visa-buying-property-mexico/" class="btn-read"><i class="bi bi-book"></i> Read Full Guide</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALL GUIDES -->
+<section class="articles">
+  <div class="container">
+    <div class="section-label">All Guides</div>
+    <div class="section-title">Immigration Guides for Foreigners in Mexico</div>
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <a href="/blog/mexico-temporary-residency-guide/" style="text-decoration:none">
+        <div class="card-a">
+          <div class="card-top top-green"></div>
+          <div class="card-body-a">
+            <span class="tag tag-green"><i class="bi bi-card-heading"></i> Residency</span>
+            <h3>Mexico Temporary Residency 2026: Requirements, Process & Costs</h3>
+            <p class="desc">Getting Residente Temporal — income requirements, documents, INM process, and expert tips for Riviera Maya.</p>
+            <div class="foot">
+              <span class="date">May 28, 2026 · 8 min</span>
+              <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <a href="/blog/permanent-residency-mexico-requirements/" style="text-decoration:none">
+        <div class="card-a">
+          <div class="card-top top-green"></div>
+          <div class="card-body-a">
+            <span class="tag tag-green"><i class="bi bi-shield-check"></i> Residency</span>
+            <h3>Permanent Residency Mexico: Requirements & Step-by-Step</h3>
+            <p class="desc">How to get Residente Permanente. Financial requirements, family ties, upgrade from temporary.</p>
+            <div class="foot">
+              <span class="date">May 25, 2026 · 7 min</span>
+              <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <a href="/blog/work-permit-mexico-2026/" style="text-decoration:none">
+        <div class="card-a">
+          <div class="card-top top-blue"></div>
+          <div class="card-body-a">
+            <span class="tag tag-blue"><i class="bi bi-briefcase"></i> Work</span>
+            <h3>Work Permit Mexico 2026: How to Get Legal Authorization</h3>
+            <p class="desc">Employer-sponsored permits, freelance options, INM requirements, and common mistakes to avoid.</p>
+            <div class="foot">
+              <span class="date">May 20, 2026 · 6 min</span>
+              <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <a href="/blog/digital-nomad-visa-mexico/" style="text-decoration:none">
+        <div class="card-a">
+          <div class="card-top top-orange"></div>
+          <div class="card-body-a">
+            <span class="tag tag-orange"><i class="bi bi-laptop"></i> Digital Nomad</span>
+            <h3>Digital Nomad Visa Mexico: Remote Work Legally in Paradise</h3>
+            <p class="desc">Visa options for remote workers, tax implications, best cities in Riviera Maya, INM compliance.</p>
+            <div class="foot">
+              <span class="date">May 15, 2026 · 7 min</span>
+              <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <a href="/blog/mexico-citizenship-naturalization/" style="text-decoration:none">
+        <div class="card-a">
+          <div class="card-top top-purple"></div>
+          <div class="card-body-a">
+            <span class="tag tag-purple"><i class="bi bi-flag"></i> Citizenship</span>
+            <h3>Mexican Citizenship & Naturalization: Complete 2026 Guide</h3>
+            <p class="desc">Naturalization process, language exam, eligibility after residency, dual citizenship rules.</p>
+            <div class="foot">
+              <span class="date">May 10, 2026 · 9 min</span>
+              <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <a href="/blog/visa-buying-property-mexico/" style="text-decoration:none">
+        <div class="card-a">
+          <div class="card-top top-red"></div>
+          <div class="card-body-a">
+            <span class="tag tag-red"><i class="bi bi-house-door"></i> Real Estate</span>
+            <h3>Visa for Buying Property in Mexico: Foreigners Guide</h3>
+            <p class="desc">Fideicomiso trusts, restricted zones, residency for property buyers, and common mistakes.</p>
+            <div class="foot">
+              <span class="date">June 4, 2026 · 8 min</span>
+              <span class="arrow"><i class="bi bi-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-banner mt-4">
+      <div>
+        <h3><i class="bi bi-whatsapp me-2" style="color:var(--gold)"></i>Got a Question?</h3>
+        <p>Our immigration experts respond in under 30 minutes. Free consultation — no commitment.</p>
+      </div>
+      <a href="https://wa.me/529987583392?text=Hello!%20I%20have%20a%20question%20about%20immigration" target="_blank" rel="noopener" class="btn-wa"><i class="bi bi-whatsapp"></i> WhatsApp Us</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- OFFICIAL RESOURCES -->
 <section class="resources">
   <div class="container">
-    <h2><i class="bi bi-bookmark-star me-2" style="color:var(--gold)"></i>Official Resources & News</h2>
-    <p class="subtitle">Trusted government sources for Mexican immigration information</p>
-    <div class="row g-3">
+    <div class="section-label">Official Sources</div>
+    <div class="section-title" style="margin-bottom:1.5rem">Mexican Government Resources</div>
+    <div class="res-grid">
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#e8f5e9;color:#2e7d32"><i class="bi bi-building"></i></div>
-          <h3>INM — Instituto Nacional de Migración</h3>
-          <p>Official Mexican immigration authority. Forms, appointments, fee schedules, and procedure updates.</p>
-          <a href="https://www.gob.mx/inm" target="_blank" rel="noopener">gob.mx/inm <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#e8f5e9;color:#2e7d32"><i class="bi bi-building"></i></div>
+        <h4>INM — National Immigration</h4>
+        <p>Official immigration authority. Forms, appointments, fees, and procedure updates.</p>
+        <a href="https://www.gob.mx/inm" target="_blank" rel="noopener">gob.mx/inm <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#e3f2fd;color:#1565c0"><i class="bi bi-journal-text"></i></div>
-          <h3>Diario Oficial de la Federación</h3>
-          <p>Official gazette where all immigration law changes, fee updates, and new regulations are published.</p>
-          <a href="https://www.dof.gob.mx/" target="_blank" rel="noopener">dof.gob.mx <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#e3f2fd;color:#1565c0"><i class="bi bi-journal-text"></i></div>
+        <h4>DOF — Official Gazette</h4>
+        <p>All immigration law changes, fee updates, and new regulations published here.</p>
+        <a href="https://www.dof.gob.mx/" target="_blank" rel="noopener">dof.gob.mx <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#fff3e0;color:#e65100"><i class="bi bi-globe2"></i></div>
-          <h3>SRE — Mexican Consulates</h3>
-          <p>Find your nearest Mexican consulate, book visa appointments, and check document requirements.</p>
-          <a href="https://www.gob.mx/sre" target="_blank" rel="noopener">gob.mx/sre <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#fff3e0;color:#e65100"><i class="bi bi-globe2"></i></div>
+        <h4>SRE — Consulates Abroad</h4>
+        <p>Find your nearest Mexican consulate and book visa appointments.</p>
+        <a href="https://www.gob.mx/sre" target="_blank" rel="noopener">gob.mx/sre <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#f3e5f5;color:#7b1fa2"><i class="bi bi-cash-stack"></i></div>
-          <h3>SAT — Tax Authority</h3>
-          <p>Get your RFC (tax ID), file taxes in Mexico, understand tax obligations for foreign residents.</p>
-          <a href="https://www.sat.gob.mx/" target="_blank" rel="noopener">sat.gob.mx <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#f3e5f5;color:#6a1b9a"><i class="bi bi-cash-stack"></i></div>
+        <h4>SAT — Tax Authority</h4>
+        <p>Get your RFC (tax ID), file taxes, understand obligations as a foreign resident.</p>
+        <a href="https://www.sat.gob.mx/" target="_blank" rel="noopener">sat.gob.mx <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#fce4ec;color:#c62828"><i class="bi bi-house-door"></i></div>
-          <h3>INDAABIN — Property Registry</h3>
-          <p>Restricted zone regulations, fideicomiso requirements, and foreign property ownership rules.</p>
-          <a href="https://www.gob.mx/indaabin" target="_blank" rel="noopener">gob.mx/indaabin <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#fce4ec;color:#c62828"><i class="bi bi-house-door"></i></div>
+        <h4>INDAABIN — Property Rules</h4>
+        <p>Restricted zone regulations, fideicomiso requirements, foreign property ownership.</p>
+        <a href="https://www.gob.mx/indaabin" target="_blank" rel="noopener">gob.mx/indaabin <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#e0f2f1;color:#00695c"><i class="bi bi-heart-pulse"></i></div>
-          <h3>IMSS — Social Security</h3>
-          <p>Public healthcare enrollment for residents. Voluntary IMSS insurance for foreign nationals in Mexico.</p>
-          <a href="https://www.imss.gob.mx/" target="_blank" rel="noopener">imss.gob.mx <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#e0f2f1;color:#00695c"><i class="bi bi-heart-pulse"></i></div>
+        <h4>IMSS — Social Security</h4>
+        <p>Public healthcare enrollment for residents and voluntary insurance.</p>
+        <a href="https://www.imss.gob.mx/" target="_blank" rel="noopener">imss.gob.mx <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#e8eaf6;color:#283593"><i class="bi bi-bank"></i></div>
-          <h3>Banxico — Central Bank</h3>
-          <p>Official exchange rates, economic indicators, and banking regulations for foreign residents.</p>
-          <a href="https://www.banxico.org.mx/" target="_blank" rel="noopener">banxico.org.mx <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#e8eaf6;color:#283593"><i class="bi bi-bank"></i></div>
+        <h4>Banxico — Central Bank</h4>
+        <p>Official exchange rates and banking regulations for foreign residents.</p>
+        <a href="https://www.banxico.org.mx/" target="_blank" rel="noopener">banxico.org.mx <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="res-card">
-          <div class="res-icon" style="background:#fff8e1;color:#f57f17"><i class="bi bi-megaphone"></i></div>
-          <h3>SEGOB — Interior Ministry</h3>
-          <p>Immigration policy, refugee status, humanitarian visas, and migration statistics.</p>
-          <a href="https://www.gob.mx/segob" target="_blank" rel="noopener">gob.mx/segob <i class="bi bi-box-arrow-up-right ms-1"></i></a>
-        </div>
+      <div class="res-item">
+        <div class="icon-wrap" style="background:#fff8e1;color:#f57f17"><i class="bi bi-megaphone"></i></div>
+        <h4>SEGOB — Interior Ministry</h4>
+        <p>Immigration policy, refugee status, humanitarian visas, migration stats.</p>
+        <a href="https://www.gob.mx/segob" target="_blank" rel="noopener">gob.mx/segob <i class="bi bi-box-arrow-up-right"></i></a>
       </div>
 
     </div>
@@ -300,8 +417,8 @@
 
 <footer>
   <div class="container">
-    <p><a href="/"><i class="bi bi-globe-americas me-1"></i>MexVisa<strong>Pro</strong></a> — Immigration Services in Riviera Maya</p>
-    <p>© 2026 MexVisa Pro. All rights reserved. · <a href="/privacy/" style="color:rgba(255,255,255,.4)">Privacy</a> · <a href="/terms/" style="color:rgba(255,255,255,.4)">Terms</a></p>
+    <p><a href="/"><i class="bi bi-globe-americas me-1"></i>MexVisa<strong>Pro</strong></a> — Immigration Services in Riviera Maya · Since 2009</p>
+    <p style="margin-top:.3rem">© 2026 MexVisa Pro · <a href="/privacy/" style="color:rgba(255,255,255,.35)">Privacy</a> · <a href="/terms/" style="color:rgba(255,255,255,.35)">Terms</a></p>
   </div>
 </footer>
 
