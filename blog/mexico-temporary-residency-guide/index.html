@@ -80,6 +80,9 @@
     .nav-links a{color:#555;text-decoration:none;font-size:.85rem;font-weight:500}
     .nav-links a:hover{color:var(--gold)}
     .nav-wa{background:var(--gold);color:#fff!important;padding:.4rem .9rem;border-radius:8px;font-weight:600;font-size:.8rem}
+        .lang-btns{display:flex;gap:2px}
+    .lang-btn{display:inline-block;padding:3px 8px;border-radius:4px;font-size:.7rem;font-weight:700;color:#888;background:#f0f0f0;text-decoration:none;transition:all .2s}
+    .lang-btn:hover,.lang-btn.active{color:#fff;background:var(--gold)}
     .nav-wa:hover{background:#d4940a;color:#fff!important}
     .article-hero{padding:4rem 0 2.5rem;background:linear-gradient(135deg,var(--dark) 0%,var(--navy) 60%,#0d3b66 100%);position:relative;overflow:hidden}
     .article-hero::before{content:"";position:absolute;top:-40%;right:-15%;width:500px;height:500px;background:radial-gradient(circle,rgba(240,165,0,.1) 0%,transparent 70%);border-radius:50%}
@@ -126,7 +129,15 @@
     <a class="brand" href="/"><i class="bi bi-globe-americas me-2"></i>MexVisa<span>Pro</span></a>
     <div class="nav-links d-flex align-items-center gap-3">
       <a href="/" class="d-none d-md-inline">Home</a>
+      <a href="/#services" class="d-none d-md-inline">Services</a>
       <a href="/blog/" style="color:var(--gold);font-weight:700">Blog</a>
+      <a href="/partners/" class="d-none d-md-inline" style="color:#f0a500;font-weight:700"><i class="bi bi-people-fill me-1"></i>Partners</a>
+      <div class="lang-btns d-none d-md-flex gap-1">
+        <a href="/en/" class="lang-btn active">EN</a>
+        <a href="/es/" class="lang-btn">ES</a>
+        <a href="/ru/" class="lang-btn">RU</a>
+        <a href="/zh/" class="lang-btn">ZH</a>
+      </div>
       <a href="https://wa.me/529987583392?text=Hi!%20Free%20consultation%20please" target="_blank" rel="noopener" class="nav-wa"><i class="bi bi-whatsapp me-1"></i>Consult Free</a>
     </div>
   </div>
