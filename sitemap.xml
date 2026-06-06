@@ -6,7 +6,7 @@
   <!-- Root (x-default, auto-redirect) -->
   <url>
     <loc>https://mexvisapro.com/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
@@ -28,7 +28,7 @@
   <!-- English -->
   <url>
     <loc>https://mexvisapro.com/en/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
@@ -50,7 +50,7 @@
   <!-- Spanish -->
   <url>
     <loc>https://mexvisapro.com/es/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
@@ -72,7 +72,7 @@
   <!-- Russian -->
   <url>
     <loc>https://mexvisapro.com/ru/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
@@ -94,7 +94,7 @@
   <!-- Chinese -->
   <url>
     <loc>https://mexvisapro.com/zh/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/en/"/>
@@ -229,7 +229,7 @@
   <!-- Sitemap -->
   <url>
     <loc>https://mexvisapro.com/sitemap/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -237,13 +237,13 @@
   <!-- Legal Pages -->
   <url>
     <loc>https://mexvisapro.com/privacy/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://mexvisapro.com/terms/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
