@@ -314,6 +314,157 @@
   </url>
 
   <!-- Legal Pages -->
+  <!-- New blog articles July 2026 -->
+  <url>
+    <loc>https://mexvisapro.com/blog/curp-mexico-foreigners/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/curp-mexico-foreigners/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/curp-mexico-extranjeros/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/curp-meksika-inostrantsy/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/curp-moxige-waiguoren/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/curp-mexico-foreigners/"/>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/es/blog/curp-mexico-extranjeros/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/curp-meksika-inostrantsy/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/curp-moxige-waiguoren/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/blog/rfc-tax-id-mexico/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/rfc-tax-id-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/rfc-sat-mexico-extranjeros/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/rfc-nalogovyj-nomer-meksika/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/rfc-shuiwu-moxige/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/rfc-tax-id-mexico/"/>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/es/blog/rfc-sat-mexico-extranjeros/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/rfc-nalogovyj-nomer-meksika/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/rfc-shuiwu-moxige/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/blog/mexico-bank-account-foreigners/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexico-bank-account-foreigners/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/cuenta-bancaria-mexico-extranjeros/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/bankovskij-schet-meksika/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/moxige-yinhang-zhanghao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexico-bank-account-foreigners/"/>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/es/blog/cuenta-bancaria-mexico-extranjeros/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/bankovskij-schet-meksika/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/moxige-yinhang-zhanghao/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/blog/mexican-drivers-license-expats/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/mexican-drivers-license-expats/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/licencia-conducir-mexico-extranjeros/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/voditelskie-prava-meksika/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/moxige-jiashi-zhizhao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/mexican-drivers-license-expats/"/>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/es/blog/licencia-conducir-mexico-extranjeros/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/voditelskie-prava-meksika/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/moxige-jiashi-zhizhao/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://mexvisapro.com/blog/fideicomiso-mexico-property-trust/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mexvisapro.com/blog/fideicomiso-mexico-property-trust/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://mexvisapro.com/es/blog/fideicomiso-inmobiliario-mexico/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mexvisapro.com/ru/blog/fideikomiso-nedvizhimost-meksika/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mexvisapro.com/zh/blog/moxige-fangchan-xintuo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mexvisapro.com/blog/fideicomiso-mexico-property-trust/"/>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/es/blog/fideicomiso-inmobiliario-mexico/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/ru/blog/fideikomiso-nedvizhimost-meksika/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mexvisapro.com/zh/blog/moxige-fangchan-xintuo/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <url>
     <loc>https://mexvisapro.com/privacy/</loc>
     <lastmod>2026-06-05</lastmod>
