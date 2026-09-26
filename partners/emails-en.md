@@ -14,7 +14,7 @@ We're MexVisa Pro — been handling immigration in Riviera Maya since 2009, 2,50
 
 Here's the deal: refer a foreign client who needs a visa or residency, and you earn 20% commission. You send the contact, we handle everything, you get paid within 48 hours.
 
-Interested? Drop me a WhatsApp: wa.me/529987583392
+Interested? Drop me a line: info@mexvisapro.com
 
 Best,
 MexVisa Pro
@@ -30,9 +30,9 @@ Something I see often: a foreign buyer is ready to close but their immigration s
 
 We fix that in 4 days. Temporary residency, sorted — your client signs without delays.
 
-If you've got a case like that now or coming up, send me the contact on WhatsApp. We take care of it, and you earn 20% commission. Zero extra work on your end.
+If you've got a case like that now or coming up, send me the contact by email. We take care of it, and you earn 20% commission. Zero extra work on your end.
 
-wa.me/529987583392
+info@mexvisapro.com
 
 Best,
 MexVisa Pro
@@ -48,7 +48,7 @@ We already work with agents across Playa and Tulum who refer their foreign clien
 
 We handle clients in 4 languages — English, Spanish, Russian, and Chinese — so it doesn't matter where your buyer is from.
 
-Whenever you have a foreign buyer who needs a visa or residency: wa.me/529987583392
+Whenever you have a foreign buyer who needs a visa or residency, write to me: info@mexvisapro.com
 
 Best,
 MexVisa Pro
@@ -60,11 +60,11 @@ MexVisa Pro
 
 Hi {{Name}},
 
-Don't want to crowd your inbox. Just leaving the door open: if you ever have a foreign client who needs Mexican residency fast, we're one WhatsApp away.
+Don't want to crowd your inbox. Just leaving the door open: if you ever have a foreign client who needs Mexican residency fast, we're one email away.
 
 4 days, 100% approval rate, 20% for you.
 
-wa.me/529987583392
+info@mexvisapro.com
 
 Best,
 MexVisa Pro

@@ -82,7 +82,7 @@ const translations = {
     process_title: "Mexico Visa Process: How It Works",
     process_sub: "4 simple steps from free consultation to approved visa in Riviera Maya",
     p1_title: "Free Immigration Consultation",
-    p1_text: "Contact us via WhatsApp or phone. We assess your situation and recommend the best visa path for Mexico.",
+    p1_text: "Write to us by email. We assess your situation and recommend the best visa path for Mexico.",
     p2_title: "Immigration Document Prep",
     p2_text: "We prepare and review all required documents, translations, and INM forms for your application.",
     p3_title: "INM Application Filing",
@@ -127,7 +127,7 @@ const translations = {
 
     cta_title: "Start Your Mexico Immigration Today",
     cta_text: "Free consultation — we evaluate your case and find the fastest path to Mexican residency or citizenship.",
-    cta_btn: "WhatsApp Us Now",
+    cta_btn: "Email Us Now",
     cta_btn2: "Call Us",
 
     footer_about: "Professional immigration consulting in Riviera Maya. Helping individuals and families navigate Mexican immigration since 2009.",
@@ -197,12 +197,12 @@ const translations = {
     trust_rating: "4.9/5 Rating (127 reviews)",
     trust_response: "Response in <30 min",
     trust_langs: "EN / ES / RU / ZH",
-    wa_online: "Online now — reply in <30 min",
-    wa_greeting: "Hello! How can we help with your immigration to Mexico? Choose an option or type your question.",
+    wa_online: "Email replies within 30 min",
+    wa_greeting: "Hello! How can we help with your immigration to Mexico? Pick a topic and we will reply by email.",
     wa_btn1: "Temporary Residency",
     wa_btn2: "Permanent Residency",
     wa_btn3: "Work Permit",
-    wa_btn4: "Start Chat",
+    wa_btn4: "Send Email",
     wa_msg1: "I need help with Temporary Residency",
     wa_msg2: "I need help with Permanent Residency",
     wa_msg3: "I need help with a Work Permit",
@@ -300,7 +300,7 @@ const translations = {
     process_title: "Proceso de Visa México: ¿Cómo Funciona?",
     process_sub: "4 pasos simples desde la consulta gratuita hasta tu visa aprobada en Riviera Maya",
     p1_title: "Consulta Gratuita",
-    p1_text: "Contáctanos por WhatsApp o teléfono. Evaluamos tu situación y recomendamos la mejor opción.",
+    p1_text: "Escríbenos por correo. Evaluamos tu situación y recomendamos la mejor opción.",
     p2_title: "Preparación de Documentos",
     p2_text: "Preparamos y revisamos todos los documentos, traducciones y formularios requeridos.",
     p3_title: "Presentación de Solicitud",
@@ -345,7 +345,7 @@ const translations = {
 
     cta_title: "Inicia tu Trámite Migratorio en México Hoy",
     cta_text: "Consulta gratuita — evaluamos tu caso y encontramos la vía más rápida a tu residencia o ciudadanía mexicana.",
-    cta_btn: "Escríbenos por WhatsApp",
+    cta_btn: "Escríbenos por correo",
     cta_btn2: "Llámanos",
 
     footer_about: "Consultoría profesional de inmigración en Riviera Maya. Ayudando a personas y familias a navegar la inmigración mexicana desde 2009.",
@@ -415,12 +415,12 @@ const translations = {
     trust_rating: "4.9/5 Calificación (127 reseñas)",
     trust_response: "Respuesta en <30 min",
     trust_langs: "EN / ES / RU / ZH",
-    wa_online: "En línea — respuesta en <30 min",
-    wa_greeting: "¡Hola! ¿Cómo podemos ayudarte con tu inmigración a México? Elige una opción o escribe tu pregunta.",
+    wa_online: "Respuesta por correo en 30 min",
+    wa_greeting: "¡Hola! ¿Cómo podemos ayudarte con tu inmigración a México? Elige un tema y te respondemos por correo.",
     wa_btn1: "Residencia Temporal",
     wa_btn2: "Residencia Permanente",
     wa_btn3: "Permiso de Trabajo",
-    wa_btn4: "Iniciar Chat",
+    wa_btn4: "Enviar Correo",
     wa_msg1: "Necesito ayuda con Residencia Temporal",
     wa_msg2: "Necesito ayuda con Residencia Permanente",
     wa_msg3: "Necesito ayuda con un Permiso de Trabajo",
@@ -518,7 +518,7 @@ const translations = {
     process_title: "Процесс Получения Визы Мексика",
     process_sub: "4 шага от консультации до получения визы в Ривьере-Майя",
     p1_title: "Бесплатная Консультация",
-    p1_text: "Свяжитесь с нами через WhatsApp или телефон. Мы оценим вашу ситуацию и порекомендуем лучший путь.",
+    p1_text: "Напишите нам на почту. Мы оценим вашу ситуацию и порекомендуем лучший путь.",
     p2_title: "Подготовка Документов",
     p2_text: "Мы подготовим и проверим все необходимые документы, переводы и формы для вашей заявки.",
     p3_title: "Подача Заявки",
@@ -563,7 +563,7 @@ const translations = {
 
     cta_title: "Начните Иммиграцию в Мексику Сегодня",
     cta_text: "Получите бесплатную консультацию сегодня. Мы оценим ваш случай и найдём лучший иммиграционный путь для вас.",
-    cta_btn: "Написать в WhatsApp",
+    cta_btn: "Написать на почту",
     cta_btn2: "Позвонить",
 
     footer_about: "Профессиональная иммиграционная консультация в Ривьере-Майя. Помогаем людям и семьям с иммиграцией в Мексику с 2009 года.",
@@ -633,12 +633,12 @@ const translations = {
     trust_rating: "4.9/5 Рейтинг (127 отзывов)",
     trust_response: "Ответ за <30 мин",
     trust_langs: "EN / ES / RU / ZH",
-    wa_online: "Онлайн — ответ за <30 мин",
-    wa_greeting: "Здравствуйте! Как мы можем помочь с иммиграцией в Мексику? Выберите вариант или напишите вопрос.",
+    wa_online: "Ответ на email за 30 мин",
+    wa_greeting: "Здравствуйте! Как мы можем помочь с иммиграцией в Мексику? Выберите тему — ответим по email.",
     wa_btn1: "Временное Резидентство",
     wa_btn2: "Постоянное Резидентство",
     wa_btn3: "Разрешение на Работу",
-    wa_btn4: "Начать Чат",
+    wa_btn4: "Написать Email",
     wa_msg1: "Мне нужна помощь с Временным Резидентством",
     wa_msg2: "Мне нужна помощь с Постоянным Резидентством",
     wa_msg3: "Мне нужна помощь с Разрешением на Работу",
@@ -736,7 +736,7 @@ const translations = {
     process_title: "墨西哥签证办理流程",
     process_sub: "从免费咨询到里维埃拉玛雅签证获批的4个简单步骤",
     p1_title: "免费移民咨询",
-    p1_text: "通过WhatsApp或电话联系我们。我们评估您的情况并推荐最佳签证路径。",
+    p1_text: "请发邮件与我们联系。我们会评估您的情况并推荐最合适的签证路径。",
     p2_title: "移民文件准备",
     p2_text: "我们准备和审核您申请所需的所有文件、翻译和表格。",
     p3_title: "INM申请提交",
@@ -781,7 +781,7 @@ const translations = {
 
     cta_title: "立即开始墨西哥移民申请",
     cta_text: "今天就获取免费咨询。我们将评估您的情况，为您找到最佳移民路径。",
-    cta_btn: "WhatsApp联系我们",
+    cta_btn: "邮件联系我们",
     cta_btn2: "致电我们",
 
     footer_about: "里维埃拉玛雅的专业移民咨询。自2009年以来帮助个人和家庭办理墨西哥移民。",
@@ -851,12 +851,12 @@ const translations = {
     trust_rating: "4.9/5 评分（127条评价）",
     trust_response: "30分钟内回复",
     trust_langs: "EN / ES / RU / ZH",
-    wa_online: "在线 — 30分钟内回复",
-    wa_greeting: "您好！我们如何帮助您办理墨西哥移民？请选择一个选项或输入您的问题。",
+    wa_online: "邮件30分钟内回复",
+    wa_greeting: "您好！我们如何帮助您办理墨西哥移民？请选择主题，我们将通过邮件回复。",
     wa_btn1: "临时居留",
     wa_btn2: "永久居留",
     wa_btn3: "工作许可",
-    wa_btn4: "开始聊天",
+    wa_btn4: "发送邮件",
     wa_msg1: "我需要临时居留方面的帮助",
     wa_msg2: "我需要永久居留方面的帮助",
     wa_msg3: "我需要工作许可方面的帮助",
@@ -901,7 +901,7 @@ function setLang(lang) {
   document.querySelectorAll('[data-wa-msg]').forEach(el => {
     const msgKey = el.getAttribute('data-wa-msg');
     if (translations[lang] && translations[lang][msgKey]) {
-      el.href = 'https://wa.me/529987583392?text=' + encodeURIComponent(translations[lang][msgKey]);
+      el.href = 'mailto:info@mexvisapro.com?subject=' + encodeURIComponent(translations[lang][msgKey]);
     }
   });
 
@@ -969,7 +969,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCounterAnimation();
   initParticles();
   initActiveNav();
-  initWhatsAppWidget();
+  initEmailWidget();
   initTypedText();
   initTestimonialCarousel();
   initGoldenCanvas();
@@ -1058,7 +1058,7 @@ function initParticles() {
   }
 }
 
-function initWhatsAppWidget() {
+function initEmailWidget() {
   const toggle = document.getElementById('waToggle');
   const chatBox = document.getElementById('waChatBox');
   const closeBtn = document.getElementById('waClose');
@@ -1071,14 +1071,14 @@ function initWhatsAppWidget() {
     e.preventDefault();
     isOpen = !isOpen;
     chatBox.classList.toggle('open', isOpen);
-    icon.className = isOpen ? 'bi bi-x-lg' : 'bi bi-whatsapp';
+    icon.className = isOpen ? 'bi bi-x-lg' : 'bi bi-envelope';
   });
 
   if (closeBtn) {
     closeBtn.addEventListener('click', () => {
       isOpen = false;
       chatBox.classList.remove('open');
-      icon.className = 'bi bi-whatsapp';
+      icon.className = 'bi bi-envelope';
     });
   }
 
@@ -1086,7 +1086,7 @@ function initWhatsAppWidget() {
     if (isOpen && !e.target.closest('.wa-widget')) {
       isOpen = false;
       chatBox.classList.remove('open');
-      icon.className = 'bi bi-whatsapp';
+      icon.className = 'bi bi-envelope';
     }
   });
 }
@@ -1799,7 +1799,7 @@ function initVanillaTilt() {
 
 function initMagneticButtons() {
   if (window.matchMedia('(hover: none)').matches) return;
-  const btns = document.querySelectorAll('.btn-gold, .btn-outline-light-custom, .whatsapp-float, .back-to-top');
+  const btns = document.querySelectorAll('.btn-gold, .btn-outline-light-custom, .email-float, .back-to-top');
   btns.forEach(btn => {
     btn.addEventListener('mousemove', e => {
       const rect = btn.getBoundingClientRect();

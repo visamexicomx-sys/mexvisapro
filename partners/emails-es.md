@@ -14,7 +14,7 @@ Somos MexVisa Pro — llevamos desde 2009 tramitando residencias en Riviera Maya
 
 Te propongo algo directo: por cada cliente extranjero que nos refieras, te pago 20% de comisión. Tú solo pasas el contacto, nosotros hacemos todo el trámite, y te transfiero en 48 horas.
 
-¿Te interesa? Un WhatsApp y lo platicamos: wa.me/529987583392
+¿Te interesa? Escríbeme y lo platicamos: info@mexvisapro.com
 
 Saludos,
 MexVisa Pro
@@ -30,9 +30,9 @@ Una situación que veo seguido: un extranjero quiere comprar pero no tiene resid
 
 Nosotros lo resolvemos en 4 días. Residencia temporal lista, tu cliente puede firmar sin problemas.
 
-Si tienes algún caso así ahora o en los próximos meses, mándame el contacto por WhatsApp y nos encargamos. Tú ganas 20% de comisión sin mover un dedo extra.
+Si tienes algún caso así ahora o en los próximos meses, mándame el contacto por correo y nos encargamos. Tú ganas 20% de comisión sin mover un dedo extra.
 
-wa.me/529987583392
+info@mexvisapro.com
 
 Saludos,
 MexVisa Pro
@@ -48,7 +48,7 @@ Ya trabajamos con brokers en Playa y Tulum que nos refieren a sus clientes extra
 
 Atendemos en 4 idiomas — inglés, español, ruso y chino — así que no importa de dónde venga tu cliente.
 
-Si en algún momento tienes un comprador extranjero que necesite visa o residencia, escríbeme: wa.me/529987583392
+Si en algún momento tienes un comprador extranjero que necesite visa o residencia, escríbeme: info@mexvisapro.com
 
 Saludos,
 MexVisa Pro
@@ -60,11 +60,11 @@ MexVisa Pro
 
 Hola {{Nombre}},
 
-No quiero llenar tu bandeja. Solo quería dejarte la puerta abierta: si algún día tienes un cliente extranjero que necesite residencia mexicana rápido, estamos a un WhatsApp de distancia.
+No quiero llenar tu bandeja. Solo quería dejarte la puerta abierta: si algún día tienes un cliente extranjero que necesite residencia mexicana rápido, estamos a un correo de distancia.
 
 4 días, 100% aprobación, 20% para ti.
 
-wa.me/529987583392
+info@mexvisapro.com
 
 Saludos,
 MexVisa Pro

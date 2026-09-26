@@ -34,9 +34,9 @@
   ],
   "shortcuts": [
     {
-      "name": "WhatsApp Consultation",
-      "url": "https://wa.me/529987583392?text=Hello!%20I%20need%20immigration%20help",
-      "description": "Start a free consultation via WhatsApp"
+      "name": "Email Consultation",
+      "url": "mailto:info@mexvisapro.com?subject=Hello!%20I%20need%20immigration%20help",
+      "description": "Start a free consultation by email"
     },
     {
       "name": "Our Services",

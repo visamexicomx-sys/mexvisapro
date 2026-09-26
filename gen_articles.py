@@ -3,7 +3,7 @@
 import os, json
 
 BASE = "/home/olek/immigration-site"
-WA = "529987583392"
+WA = "info@mexvisapro.com"
 
 CSS = """
     :root{--gold:#f0a500;--dark:#0b1120;--navy:#1a2744;--bg:#f7f8fc}
@@ -96,7 +96,7 @@ def html(lang, slug, d):
         <a href="/zh/blog/{slugs["zh"]}/" class="lang-btn{"" if lang!="zh" else " active"}">ZH</a>
       </div>
       <button class="mobile-toggle" onclick="document.getElementById('mobileMenu').classList.add('open')" aria-label="Menu"><i class="bi bi-list"></i></button>
-      <a href="https://wa.me/{WA}?text={lbl['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="nav-wa"><i class="bi bi-whatsapp me-1"></i>{lbl['consult']}</a>'''
+      <a href="mailto:{WA}?subject={lbl['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="nav-wa"><i class="bi bi-envelope me-1"></i>{lbl['consult']}</a>'''
 
     related_links = '\n'.join([f'    <li><a href="{LANG_BLOG[lang]}/{r}/">{t}</a></li>' for r,t in d.get('related',{}).get(lang,[])])
 
@@ -181,7 +181,7 @@ def html(lang, slug, d):
   <a href="{mobile_home_link}" onclick="document.getElementById('mobileMenu').classList.remove('open')">{lbl['home']}</a>
   <a href="{blog_pfx}/">{lbl['blog']}</a>
   <a href="{pfx}/partners/" style="color:var(--gold)">{lbl['partners']}</a>
-  <a href="https://wa.me/{WA}?text={lbl['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="nav-wa"><i class="bi bi-whatsapp me-1"></i>{lbl['consult']}</a>
+  <a href="mailto:{WA}?subject={lbl['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="nav-wa"><i class="bi bi-envelope me-1"></i>{lbl['consult']}</a>
   <div class="lang-row">
     <a href="/blog/{en_sl}/" class="lang-btn"{"" if lang!="en" else ' style="color:#fff;background:var(--gold)"'}>EN</a>
     <a href="/es/blog/{slugs["es"]}/" class="lang-btn"{"" if lang!="es" else ' style="color:#fff;background:var(--gold)"'}>ES</a>
@@ -206,22 +206,22 @@ CTA = {
     'en': lambda topic: f'''  <div class="cta-box">
     <h3>Need Help With {topic}?</h3>
     <p>Our Riviera Maya experts guide you through every step. Response in under 30 minutes.</p>
-    <a href="https://wa.me/{WA}?text=Hi!%20I%20need%20help%20with%20{topic.replace(" ","%20")}" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>Free Consultation</a>
+    <a href="mailto:{WA}?subject=Hi!%20I%20need%20help%20with%20{topic.replace(" ","%20")}" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-envelope me-2"></i>Free Consultation</a>
   </div>''',
     'es': lambda topic: f'''  <div class="cta-box">
     <h3>¿Necesitas ayuda con {topic}?</h3>
     <p>Nuestros expertos en Riviera Maya te guían en cada paso. Respuesta en menos de 30 minutos.</p>
-    <a href="https://wa.me/{WA}?text=Hola!%20Necesito%20ayuda%20con%20{topic.replace(" ","%20")}" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>Consulta Gratuita</a>
+    <a href="mailto:{WA}?subject=Hola!%20Necesito%20ayuda%20con%20{topic.replace(" ","%20")}" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-envelope me-2"></i>Consulta Gratuita</a>
   </div>''',
     'ru': lambda topic: f'''  <div class="cta-box">
     <h3>Нужна помощь?</h3>
     <p>Наши эксперты в Ривьера-Майя ответят в течение 30 минут.</p>
-    <a href="https://wa.me/{WA}?text=Здравствуйте!%20Нужна%20консультация" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>Бесплатная консультация</a>
+    <a href="mailto:{WA}?subject=Здравствуйте!%20Нужна%20консультация" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-envelope me-2"></i>Бесплатная консультация</a>
   </div>''',
     'zh': lambda topic: f'''  <div class="cta-box">
     <h3>需要帮助？</h3>
     <p>我们的Riviera Maya专家团队30分钟内回复您。</p>
-    <a href="https://wa.me/{WA}?text=你好！需要免费咨询" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>免费咨询</a>
+    <a href="mailto:{WA}?subject=你好！需要免费咨询" class="btn-gold" target="_blank" rel="noopener"><i class="bi bi-envelope me-2"></i>免费咨询</a>
   </div>''',
 }
 

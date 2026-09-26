@@ -2,7 +2,7 @@
 """Generate /registro-civil-mexico/ service pages in EN/ES/RU/ZH"""
 import os
 
-WA = "529987583392"
+WA = "info@mexvisapro.com"
 SITE = "https://mexvisapro.com"
 
 LANGS = {
@@ -602,7 +602,7 @@ def page(lang, d):
       <a href="{home_link}#services" class="desk-link">{nav_services}</a>
       <a href="{blog_link}" class="desk-link">{nav_blog}</a>
       <div class="lang-btns d-none d-md-flex gap-1">{desk_langs}</div>
-      <a href="https://wa.me/{WA}?text={d['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="nav-wa d-none d-md-flex"><i class="bi bi-whatsapp me-1"></i>{d['consult']}</a>
+      <a href="mailto:{WA}?subject={d['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="nav-wa d-none d-md-flex"><i class="bi bi-envelope me-1"></i>{d['consult']}</a>
     </div>
     <button class="mobile-toggle" onclick="document.getElementById('mobileNav').classList.toggle('open')">
       <svg width="24" height="24" fill="none" stroke="#333" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -616,7 +616,7 @@ def page(lang, d):
   <a href="{home_link}">{nav_home}</a>
   <a href="{home_link}#services">{nav_services}</a>
   <a href="{blog_link}">{nav_blog}</a>
-  <a href="https://wa.me/{WA}?text={d['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>{d['consult']}</a>
+  <a href="mailto:{WA}?subject={d['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener"><i class="bi bi-envelope me-1"></i>{d['consult']}</a>
   <div class="lang-row">{mob_langs}</div>
 </div>
 
@@ -651,8 +651,8 @@ def page(lang, d):
       <div class="cta-box">
         <h4>Ready to Start?</h4>
         <p>Free consultation — we'll review your documents and give you a clear action plan.</p>
-        <a href="https://wa.me/{WA}?text={d['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="btn-wa">
-          <i class="bi bi-whatsapp"></i>{d['consult']}
+        <a href="mailto:{WA}?subject={d['wa_text'].replace(' ','%20')}" target="_blank" rel="noopener" class="btn-wa">
+          <i class="bi bi-envelope"></i>{d['consult']}
         </a>
       </div>
       <div class="related-box mt-3">
